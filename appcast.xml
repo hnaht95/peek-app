@@ -3,32 +3,34 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.1.1</title>
-            <pubDate>Sat, 29 Aug 2026 09:57:43 +0700</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <title>1.1.2</title>
+            <pubDate>Sat, 29 Aug 2026 10:28:46 +0700</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<div style="font: -apple-system-body"><pre style="white-space: pre-wrap; font: inherit">## Cài đặt
 
-1. Tải `Peek-1.1.1.zip` bên dưới rồi giải nén.
+1. Tải `Peek-1.1.2.zip` bên dưới rồi giải nén.
 2. Kéo `Peek.app` vào thư mục **Ứng dụng**.
 3. Bấm đúp để mở.
 
 App đã ký bằng chứng chỉ Developer ID và **đã công chứng với Apple**, nên mở thẳng được,
 không phải bấm chuột phải hay tắt bảo mật.
 
-## Khác 1.1.0
+## Mới so với 1.1.1
 
-Rút lại hai thứ trong tab Lịch để làm tiếp cho xong, sẽ trả lại ở bản sau:
+- **Đổi ngôn ngữ mờ chồng.** Cả cửa sổ Cài đặt thay chữ cùng một lúc, trước đây đổi thẳng nên
+  giật một cái như vừa nạp lại một cửa sổ khác. Nay chữ cũ tan ra trong khi chữ mới hiện lên,
+  không có khoảnh khắc nào cửa sổ trống.
+- **Cân lại lề phải cột nội dung.** Hở phải đang 20 pt trong khi hở trái 26 — một con số cũ
+  đo từ hồi cột phải còn khung viền, khung bỏ rồi mà số ở lại. Giờ hai bên bằng nhau.
 
-- Công tắc **Nhắc theo giờ** trong ô ghi chú, cùng hàng chọn mốc báo trước.
-- Lời mách **Nhấn đúp** trên dải ngày.
+## Yêu cầu
 
-Ghi chú vẫn báo bình thường theo mốc chung trong Cài đặt (báo trước mấy ngày, báo lúc mấy
-giờ). Mọi thứ khác của 1.1.0 giữ nguyên — xem phần mô tả bản ấy.
+- macOS 13 trở lên (phần sóng nhạc thật cần macOS 14.2 trở lên)
 </pre></div>]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.1.1/Peek-1.1.1.zip" length="2399162" type="application/octet-stream" sparkle:edSignature="okb39euDO/ms3AeAdf5dMSctW4Gx6p1dOzS+cSxPVzbq3tYsmRN65gIScHgQws1o6s5Qs1YPsAFlxdrR7LUmCA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.1.2/Peek-1.1.2.zip" length="2402739" type="application/octet-stream" sparkle:edSignature="ntZwG3iBu8dM/VS5RFiIj/BzQOZcbLbzioKQNIjn6IRBrTNoBqw1bsH3J71aalXKx39H4ISMSf80JBY9D3sVBg=="/>
         </item>
     </channel>
 </rss>
