@@ -3,33 +3,37 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.3.1</title>
-            <pubDate>Sat, 29 Aug 2026 23:34:25 +0700</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <title>1.3.2</title>
+            <pubDate>Sun, 30 Aug 2026 01:16:51 +0700</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<div style="font: -apple-system-body"><pre style="white-space: pre-wrap; font: inherit">## Cài đặt
 
-1. Tải `Peek-1.3.1.zip` bên dưới rồi giải nén.
+1. Tải `Peek-1.3.2.zip` bên dưới rồi giải nén.
 2. Kéo `Peek.app` vào thư mục **Ứng dụng**.
 3. Bấm đúp để mở.
 
 App đã ký bằng chứng chỉ Developer ID và **đã công chứng với Apple**, nên mở thẳng được,
 không phải bấm chuột phải hay tắt bảo mật.
 
-## Mới so với 1.3.0
+## Mới so với 1.3.1
 
-- **Giữ máy thức** trong tab Máy có thêm một dòng nói rõ nó làm gì: *&quot;Không cho màn hình
-  tự tắt khi máy rảnh.&quot;* Mấy hàng &quot;30 phút · 1 giờ · 2 giờ&quot; đứng một mình thì không nói
-  được là 30 phút của cái gì. Câu này cũng trả lời luôn câu hỏi đầu tiên ai cũng có: nó
-  chỉ chặn cái ngưỡng *máy rảnh*, còn bạn tự khoá bằng ⌃⌘Q thì vẫn khoá.
+- **Sửa: hai logo Facebook và Behance ở chân tab Giới thiệu biến mất khi máy để chế độ
+  Tối.** Rê chuột vào chỉ còn thấy một ô xám trống, trông như icon hỏng. Cửa sổ Cài đặt
+  luôn giữ nền sáng, nhưng logo lại được tô màu ở ngoài cửa sổ nên nó hỏi nhầm chế độ của
+  cả máy: máy để Tối thì logo tô ra trắng, rơi lên nền sáng là mất tăm.
+- Đậm nhạt của hai logo ấy lúc rê chuột giờ chuyển mượt thay vì nhảy một nấc.
+- **Sửa rò rỉ bộ nhớ ở phần âm thanh.** Mỗi lần Peek đọc tên hoặc mã thiết bị âm thanh là
+  bỏ quên một chuỗi không ai thu lại — mà nó đọc lại mỗi lần bạn cắm hay rút tai nghe,
+  đổi loa, gọi video. Cắm rút cả ngày thì cộng dồn.
 
 ## Yêu cầu
 
 - macOS 13 trở lên, máy Apple silicon **hoặc** Intel
 - Phần sóng nhạc thật cần macOS 14.2 trở lên
 </pre></div>]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.3.1/Peek-1.3.1.zip" length="3826570" type="application/octet-stream" sparkle:edSignature="zcnVK0GuMXfjT7vCML4X15emUmwPYLtr8GskDZYhxypF3nJcqcKnB7WHjXFMN2iGanjd/lEA469L1wKbTUwFCQ=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.3.2/Peek-1.3.2.zip" length="3828186" type="application/octet-stream" sparkle:edSignature="SKzAnohj31uEJBsCqXq4yZEUZ+DsoBwJl9ZE9VO9yYEemxF++quD5kUfEUFLjq3n6yhg3qVvBGYqM6Fdm+TGAA=="/>
         </item>
     </channel>
 </rss>
