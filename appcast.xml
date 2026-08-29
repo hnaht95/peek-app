@@ -3,43 +3,32 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.2.1</title>
-            <pubDate>Sat, 29 Aug 2026 14:34:14 +0700</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <title>1.2.2</title>
+            <pubDate>Sat, 29 Aug 2026 14:40:16 +0700</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<div style="font: -apple-system-body"><pre style="white-space: pre-wrap; font: inherit">## Cài đặt
 
-1. Tải `Peek-1.2.1.zip` bên dưới rồi giải nén.
+1. Tải `Peek-1.2.2.zip` bên dưới rồi giải nén.
 2. Kéo `Peek.app` vào thư mục **Ứng dụng**.
 3. Bấm đúp để mở.
 
 App đã ký bằng chứng chỉ Developer ID và **đã công chứng với Apple**, nên mở thẳng được,
 không phải bấm chuột phải hay tắt bảo mật.
 
-## Mới so với 1.2.0
+## Mới so với 1.2.1
 
-Lời chào lần đầu mở app giờ đầy đủ hơn:
-
-- **Chào hai thứ tiếng.** Viết &quot;hello&quot; rồi tới &quot;xin chào&quot;.
-- **Nằm lại 10 giây** sau khi viết xong, thay vì thu ngay.
-- **Rê chuột lên là tắt**, và bảng mở luôn — đang phát nhạc thì vào tab Nhạc, không thì
-  tab Lịch.
-- Khối island thu về đúng cỡ thẻ báo bài mới, chữ nằm giữa.
-- Thêm thẻ **Hello** ở cuối mục *Thử hiệu ứng* để xem lại bất cứ lúc nào.
-
-Muốn xem lại lời chào đúng như lần đầu thì chạy dòng này trong Terminal rồi mở app:
-
-```
-defaults delete com.3hvn.peek didGreet
-```
+- **Chạy được trên máy Intel.** Mọi bản trước chỉ dựng cho Apple silicon, nên đem sang máy
+  Intel là macOS từ chối mở — không phải lỗi bảo mật mà là không có mã cho con chip ấy. Từ
+  bản này bó app có cả hai kiến trúc.
 
 ## Yêu cầu
 
-- macOS 13 trở lên (phần sóng nhạc thật cần macOS 14.2 trở lên)
+- macOS 13 trở lên, máy Apple silicon **hoặc** Intel
+- Phần sóng nhạc thật cần macOS 14.2 trở lên
 </pre></div>]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.2.1/Peek-1.2.1.zip" length="2433774" type="application/octet-stream" sparkle:edSignature="XTwu9uNkJDetVVi290kw6q8F7DK8LczP2to2EgRpm6+LxdK7yQqZ5VbcXzxnoezJ2knc21HkyXSzoWhLB/PyDA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.2.2/Peek-1.2.2.zip" length="3540465" type="application/octet-stream" sparkle:edSignature="gELudIBnHE/aIVzoqucPdHIILVDBFtI/ivEiklnuyEm5Fu3KDaeG2JHXvdR6woOOTgIoKEfinYgyYZJtVye9Dw=="/>
         </item>
     </channel>
 </rss>
