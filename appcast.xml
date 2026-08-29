@@ -3,32 +3,51 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.2.2</title>
-            <pubDate>Sat, 29 Aug 2026 14:40:16 +0700</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <title>1.2.3</title>
+            <pubDate>Sat, 29 Aug 2026 15:33:39 +0700</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<div style="font: -apple-system-body"><pre style="white-space: pre-wrap; font: inherit">## Cài đặt
 
-1. Tải `Peek-1.2.2.zip` bên dưới rồi giải nén.
+1. Tải `Peek-1.2.3.zip` bên dưới rồi giải nén.
 2. Kéo `Peek.app` vào thư mục **Ứng dụng**.
 3. Bấm đúp để mở.
 
 App đã ký bằng chứng chỉ Developer ID và **đã công chứng với Apple**, nên mở thẳng được,
 không phải bấm chuột phải hay tắt bảo mật.
 
-## Mới so với 1.2.1
+## Mới so với 1.2.2
 
-- **Chạy được trên máy Intel.** Mọi bản trước chỉ dựng cho Apple silicon, nên đem sang máy
-  Intel là macOS từ chối mở — không phải lỗi bảo mật mà là không có mã cho con chip ấy. Từ
-  bản này bó app có cả hai kiến trúc.
+**Sửa lỗi lớn: Apple Music và Spotify không điều khiển được.**
+
+Mọi bản trước ký thiếu một quyền, nên macOS chặn thẳng đường Peek nói chuyện với Music và
+Spotify — mà lại chặn **câm**: không hiện hộp thoại xin quyền nào cả, nên trong Cài đặt ▸
+Quyền riêng tư &amp; Bảo mật ▸ Tự động hoá cũng không có dòng nào để bật. Hậu quả là Apple Music
+không lên tên bài, không lên ảnh bìa, thanh âm lượng không ăn — mà không có cách nào sửa.
+
+Từ bản này Peek tự hỏi quyền lúc thấy Music hoặc Spotify đang chạy. **Bấm &quot;Cho phép&quot; khi hộp
+thoại hiện ra.**
+
+Kèm theo:
+
+- Ảnh bìa hỏi lại vài lượt nếu lượt đầu chưa có. Apple Music trả ảnh sau tiếng nhạc, mà bản
+  cũ hỏi đúng một lần rồi thôi nên hụt là mất luôn.
+- Chưa được cấp quyền thì Peek **nói rõ app nào** đang bị chặn, thay vì im lặng.
+
+Ai đã lỡ bấm &quot;Không cho phép&quot; thì mở Cài đặt ▸ Quyền riêng tư &amp; Bảo mật ▸ Tự động hoá ▸ Peek
+rồi bật lại. Nếu không thấy dòng nào ở đó, chạy dòng này trong Terminal rồi mở lại Peek:
+
+```
+tccutil reset AppleEvents com.3hvn.peek
+```
 
 ## Yêu cầu
 
 - macOS 13 trở lên, máy Apple silicon **hoặc** Intel
 - Phần sóng nhạc thật cần macOS 14.2 trở lên
 </pre></div>]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.2.2/Peek-1.2.2.zip" length="3540465" type="application/octet-stream" sparkle:edSignature="gELudIBnHE/aIVzoqucPdHIILVDBFtI/ivEiklnuyEm5Fu3KDaeG2JHXvdR6woOOTgIoKEfinYgyYZJtVye9Dw=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.2.3/Peek-1.2.3.zip" length="3554958" type="application/octet-stream" sparkle:edSignature="6AAPhNSXvHr2CHo+ffjiA+70BNv0nk2hhOhVCwCOvqHoTucSgHN7N1IiwhM7O4rTfXVug/6BT5osA6u4+KzVBQ=="/>
         </item>
     </channel>
 </rss>
