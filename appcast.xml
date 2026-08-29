@@ -3,32 +3,67 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.0.2</title>
-            <pubDate>Fri, 28 Aug 2026 18:33:57 +0700</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <title>1.1.0</title>
+            <pubDate>Sat, 29 Aug 2026 09:55:48 +0700</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<div style="font: -apple-system-body"><pre style="white-space: pre-wrap; font: inherit">## Cài đặt
 
-1. Tải `Peek-1.0.2.zip` bên dưới rồi giải nén.
+1. Tải `Peek-1.1.0.zip` bên dưới rồi giải nén.
 2. Kéo `Peek.app` vào thư mục **Ứng dụng**.
 3. Bấm đúp để mở.
 
 App đã ký bằng chứng chỉ Developer ID và **đã công chứng với Apple**, nên mở thẳng được,
 không phải bấm chuột phải hay tắt bảo mật.
 
-## Mới so với 1.0.1
+Ai đang dùng 1.0.2 thì không cần tải tay: Peek tự tìm thấy bản này và mời cập nhật.
 
-- **Tự cập nhật.** Từ bản này trở đi Peek tự tìm bản mới và tự cài — không phải vào đây tải
-  tay nữa. Chuột phải lên tai thỏ có thêm dòng *Kiểm tra bản mới* để chủ động.
-- **Sửa lỗi nháy chữ** ở nút đổi màn trong tab Lịch khi rê chuột vào sát mép.
+## Mới so với 1.0.2
+
+### Cửa sổ Cài đặt vẽ lại từ đầu
+
+- Một trang cuộn liền mạch thay cho sáu trang rời. Viên thuốc ở cột trái **tự chạy theo** chỗ
+  đang cuộn, bấm vào nó thì trang trượt tới đúng mục.
+- Công tắc, ô xổ xuống và ô chọn hai nhánh đều tự vẽ, một tông màu, một cỡ chữ. Ô xổ xuống
+  bung ra **bên cạnh cửa sổ** chứ không chen trong lòng nó.
+- Chọn kiểu hiển thị bằng ba hàng xem trước có con trỏ chạy thật: nhìn thấy island nhô ra
+  thế nào trước khi chọn, thay vì đọc ba cái tên.
+- Mục Giới thiệu có nút **Kiểm tra bản mới** bấm tay, và chân trang dẫn sang trang cá nhân.
+
+### Lịch
+
+- **Sinh nhật, lễ tết và ghi chú giờ nhô ra tai thỏ** đúng ngày, không phải mở bảng mới thấy.
+  Chọn báo trước mấy ngày và báo lúc mấy giờ trong Cài đặt.
+- **Mỗi ghi chú hẹn được giờ riêng.** Bật *Nhắc theo giờ* trong ô ghi chú rồi chọn giờ và mốc
+  báo trước (đúng giờ, 5, 15, 30 phút, 1 giờ) — hợp với ghi chú vốn là một cái hẹn có giờ,
+  chứ không phải chuyện cả ngày.
+- Tab Lịch tự mách **Nhấn đúp** vào một ngày để thêm ghi chú, hiện một nhịp rồi tắt.
+- Ghi chú dài thôi kéo island rộng ra: chữ tự cụt đuôi, mở tab Lịch để đọc đủ.
+
+### Nhạc và thiết bị
+
+- Hàng chọn nguồn phát có **hình đúng từng thiết bị** — tai nghe, loa, màn hình, và loa tích
+  hợp thì mang hình chính cái máy đang dùng.
+- Rê chuột lên thẻ báo đổi bài là mở thẳng bảng Nhạc, khỏi phải đợi nó tắt rồi mới rê lên.
+
+### Sửa lỗi
+
+- Sóng nhạc thôi tụt xuống theo thanh âm lượng.
+- Đổi ngôn ngữ thì mọi chữ đổi ngay, không còn sót thẻ tiếng Việt.
+- Vài chỗ tính bề rộng cộng thiếu làm chữ tiếng Việt bị cụt.
+
+### Bỏ đi
+
+- Tuỳ chọn **Vị trí** và **Bố cục nội dung**: cả hai đều suy được từ phần cứng, để chọn tay
+  chỉ tổ ghim sai.
 
 ## Yêu cầu
 
 - macOS 13 trở lên (phần sóng nhạc thật cần macOS 14.2 trở lên)
 </pre></div>]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.0.2/Peek-1.0.2.zip" length="3564201" type="application/octet-stream" sparkle:edSignature="fQi3x3yHJ90aWCPdcqA67M/APHmSluwcNRGfKMXl/Yd80lt6eY84kQbOy5gciS0tXDpdypZz0yGgylP5Eh8sDw=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.1.0/Peek-1.1.0.zip" length="2438403" type="application/octet-stream" sparkle:edSignature="1ODuphcsgVFWfPOZIslf/3QgPevTGsxlZfQXetLAhF2ZqGAjhgJVyb1CrYpuoqwlGT1VpL16smXiqjU0K3DYDA=="/>
         </item>
     </channel>
 </rss>
