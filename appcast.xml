@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.3.2</title>
-            <pubDate>Sun, 30 Aug 2026 01:30:05 +0700</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+            <title>1.3.3</title>
+            <pubDate>Sun, 30 Aug 2026 01:41:59 +0700</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,18 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.3.2</h2>
-<h3>Fixed</h3>
-<ul><li>The Facebook and Behance logos at the foot of Settings › About turned invisible whenever macOS was set to Dark mode, leaving an empty grey box on hover.</li><li>A memory leak in the audio code. Reading an audio device's name or ID dropped a string that nothing ever reclaimed, and Peek reads those again every time you plug in headphones, switch speakers or join a call.</li></ul>
-<h3>Improved</h3>
-<ul><li>Those two logos now fade between shades on hover instead of snapping in one step.</li></ul>
-<h2>Có gì mới ở 1.3.2</h2>
-<h3>Đã sửa</h3>
-<ul><li>Hai logo Facebook và Behance ở chân tab Cài đặt › Giới thiệu biến mất khi máy để chế độ Tối, rê chuột vào chỉ còn thấy một ô xám trống.</li><li>Rò rỉ bộ nhớ ở phần âm thanh. Mỗi lần đọc tên hoặc mã thiết bị là bỏ quên một chuỗi không ai thu lại, mà Peek đọc lại mỗi lần bạn cắm tai nghe, đổi loa hay gọi video.</li></ul>
-<h3>Đã cải thiện</h3>
-<ul><li>Hai logo ấy giờ đậm nhạt chuyển mượt khi rê chuột thay vì nhảy một nấc.</li></ul>
+<h2>What's new in 1.3.3</h2>
+<h3>Changed</h3>
+<ul><li>Tidied up the wording of the update box you are reading this in. It used to run two sentences together with a long dash; now it reads as two, in all fourteen languages where that dash showed up.</li></ul>
+<h2>Có gì mới ở 1.3.3</h2>
+<h3>Đã đổi</h3>
+<ul><li>Sửa lại lời trong chính hộp thoại cập nhật bạn đang đọc. Trước đây nó nối hai vế bằng một dấu gạch dài, nay tiếng Việt nối bằng dấu phẩy còn mười ba thứ tiếng kia tách hẳn thành hai câu.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.3.2/Peek-1.3.2.zip" length="3828186" type="application/octet-stream" sparkle:edSignature="SKzAnohj31uEJBsCqXq4yZEUZ+DsoBwJl9ZE9VO9yYEemxF++quD5kUfEUFLjq3n6yhg3qVvBGYqM6Fdm+TGAA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.3.3/Peek-1.3.3.zip" length="3828178" type="application/octet-stream" sparkle:edSignature="m5KHLW7ohkVuWw1zu170OH9H0YChUX1mp77O7un0FNKeTBb8IvlDQ7kIdvoP3Q2M4TKEzKzwWd9m5qAJns30AA=="/>
         </item>
     </channel>
 </rss>
