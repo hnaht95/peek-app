@@ -3,34 +3,36 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.1.2</title>
-            <pubDate>Sat, 29 Aug 2026 10:28:46 +0700</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <title>1.1.3</title>
+            <pubDate>Sat, 29 Aug 2026 11:04:16 +0700</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<div style="font: -apple-system-body"><pre style="white-space: pre-wrap; font: inherit">## Cài đặt
 
-1. Tải `Peek-1.1.2.zip` bên dưới rồi giải nén.
+1. Tải `Peek-1.1.3.zip` bên dưới rồi giải nén.
 2. Kéo `Peek.app` vào thư mục **Ứng dụng**.
 3. Bấm đúp để mở.
 
 App đã ký bằng chứng chỉ Developer ID và **đã công chứng với Apple**, nên mở thẳng được,
 không phải bấm chuột phải hay tắt bảo mật.
 
-## Mới so với 1.1.1
+## Mới so với 1.1.2
 
-- **Đổi ngôn ngữ mờ chồng.** Cả cửa sổ Cài đặt thay chữ cùng một lúc, trước đây đổi thẳng nên
-  giật một cái như vừa nạp lại một cửa sổ khác. Nay chữ cũ tan ra trong khi chữ mới hiện lên,
-  không có khoảnh khắc nào cửa sổ trống.
-- **Cân lại lề phải cột nội dung.** Hở phải đang 20 pt trong khi hở trái 26 — một con số cũ
-  đo từ hồi cột phải còn khung viền, khung bỏ rồi mà số ở lại. Giờ hai bên bằng nhau.
+Ba chỗ trong cửa sổ Cài đặt, đều lộ ra lúc đổi ngôn ngữ:
+
+- **Lề phải cột nội dung thôi nhảy.** Bấm đổi tiếng một cái là hở bên phải hụt đi 11 pt rồi ở
+  lì đó — lỗi có từ trước, chỉ khó thấy. Nay hai bên bằng nhau ở mọi lúc.
+- **Thanh cuộn thôi nhoáng lên** một vạch dọc bên phải mỗi lần đổi tiếng.
+- **Ô chọn ngôn ngữ thôi ra hai vạch dọc** ở hai đầu. Nét viền mảnh bị vẽ đậm nhạt không đều
+  ở chỗ cong, đậm–nhạt chênh nhau đủ để mắt tách cái đầu đậm ra thành một vạch riêng.
 
 ## Yêu cầu
 
 - macOS 13 trở lên (phần sóng nhạc thật cần macOS 14.2 trở lên)
 </pre></div>]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.1.2/Peek-1.1.2.zip" length="2402739" type="application/octet-stream" sparkle:edSignature="ntZwG3iBu8dM/VS5RFiIj/BzQOZcbLbzioKQNIjn6IRBrTNoBqw1bsH3J71aalXKx39H4ISMSf80JBY9D3sVBg=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.1.3/Peek-1.1.3.zip" length="2408650" type="application/octet-stream" sparkle:edSignature="JwPB5gzO+MCDrGrXGTFLop3MnuJ651vLNlxGqyHjRsdywoRGEy+Hnwk30cFIB3vjKISdR6Uz6e8tMakvoYi/BQ=="/>
         </item>
     </channel>
 </rss>
