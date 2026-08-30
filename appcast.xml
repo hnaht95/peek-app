@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.5.0</title>
-            <pubDate>Sun, 30 Aug 2026 18:55:19 +0700</pubDate>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <title>1.6.0</title>
+            <pubDate>Sun, 30 Aug 2026 21:32:15 +0700</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,22 +34,26 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.5.0</h2>
+<h2>What's new in 1.6.0</h2>
 <h3>Added</h3>
-<ul><li><strong>Play and pause straight from the Notch.</strong> While music is playing, moving the pointer over the waveform turns it into a play/pause button that takes its colour from the album art, and the track name appears at the same moment.</li><li>The <strong>Apple Music and Spotify logos are now two separate buttons</strong>, so you can open either app from the music tab. They used to be one flat picture you could only look at.</li><li><strong>A reminder every half hour while Keep awake is on.</strong> A coffee cup leans out of the Notch for four seconds with the time remaining. Always on never switches itself off, and the only thing saying so was tucked away in the Mac tab.</li></ul>
+<ul><li><strong>Peek is now a paid app, with a 7 day trial.</strong> Settings has a new <strong>Licence</strong> section where you enter the email you bought with and the key you were sent. If you are updating from an earlier version, your seven days start the first time you open this one.</li><li>One licence covers <strong>two Macs</strong>. That figure is written under your key in Settings, so it is where you will look for it rather than only on the page you bought from.</li><li>Checking is <strong>entirely offline</strong>. Your key is a signature over your own email address, and Peek only ever verifies it. There is no server to call, nothing is sent anywhere, and it works with the network down.</li></ul>
 <h3>Changed</h3>
-<ul><li><strong>When the timer runs out, Peek makes a sound and leaves a card on screen until you dismiss it.</strong> It used to show a silent row for four and a half seconds. Set thirty minutes, go make coffee, come back, and there was nothing left to see. Nothing else in the app makes a sound; this one does, because it is the one thing you are waiting for.</li><li>The Keep awake box counts down second by second instead of sitting still for a minute and then jumping.</li><li>Tooltips are gone from the whole app. On the Notch the yellow system tooltip popped up on top of the island itself.</li></ul>
+<ul><li><strong>When the trial runs out, Peek stops working.</strong> It stays folded into the Notch as though nothing were installed, and only leans out when you point at it. A black bar sitting there all day asking for money is harassment, not a reminder. Clicking anywhere along that line opens Settings.</li></ul>
+<h3>Fixed</h3>
+<ul><li>Calendar reminders set to warn you some days ahead only spoke up <strong>once</strong> in that whole stretch, and then said nothing on the day itself. Pick "a week before" and you got one reminder seven days out, then silence through the birthday. They now remind you once a day right through, including the day it happens.</li><li>The selection outline on the file shelf was clipped after using the arrow buttons.</li></ul>
 <h3>Improved</h3>
-<ul><li>The Notch no longer grows when you hover it while music is playing, and the track name now sits in the same place whatever else is on screen.</li><li>Slider handles light up when the pointer is anywhere over the bar, not only on the handle itself.</li><li>The play/pause button tilts and grows under the pointer with a little momentum, and the waveform fades between colours when the track changes.</li></ul>
-<h2>Có gì mới ở 1.5.0</h2>
+<ul><li>The Notch only casts a shadow while the pointer is on it, so it sits flatter against the screen the rest of the time.</li><li>Settings has hairlines between rows, and buttons sit centred in their row.</li></ul>
+<h2>Có gì mới ở 1.6.0</h2>
 <h3>Đã thêm</h3>
-<ul><li><strong>Bấm phát và dừng ngay trên Notch.</strong> Đang có nhạc mà đưa chuột lên, sóng nhạc đổi thành nút phát/dừng lấy màu từ ảnh bìa, tên bài hiện ra cùng lúc.</li><li><strong>Hai logo Apple Music và Spotify giờ là hai nút bấm được</strong>, mở thẳng app từ tab nhạc. Trước đó chúng chỉ là một tấm ảnh gộp để nhìn.</li><li><strong>Cứ nửa tiếng nhắc một lần khi đang giữ máy thức.</strong> Một tách cà phê nhô ra khỏi Notch bốn giây kèm thời gian còn lại. Chế độ Luôn bật không bao giờ tự tắt, mà thứ duy nhất báo điều đó lại nằm khuất trong tab Máy.</li></ul>
+<ul><li><strong>Peek chuyển sang có phí, dùng thử 7 ngày.</strong> Cài đặt có thêm mục <strong>Bản quyền</strong> để nhập email bạn đã mua và mã được gửi. Nếu bạn đang cập nhật từ bản cũ thì bảy ngày ấy tính từ lần đầu mở bản này.</li><li>Một mã dùng được cho <strong>hai máy</strong>. Con số ấy ghi ngay dưới mã trong Cài đặt, tức đúng chỗ bạn sẽ quay lại xem, chứ không chỉ nằm ở trang bán.</li><li>Kiểm tra <strong>hoàn toàn ngoại tuyến</strong>. Mã của bạn là chữ ký lên chính địa chỉ email của bạn, Peek chỉ việc xác minh. Không có máy chủ nào để gọi, không gửi gì đi đâu, và mất mạng vẫn chạy.</li></ul>
 <h3>Đã đổi</h3>
-<ul><li><strong>Hết giờ thì Peek kêu một tiếng và để lại một thẻ trên màn hình tới khi bạn bấm tắt.</strong> Trước đây nó chỉ hiện một hàng im lặng bốn giây rưỡi. Hẹn ba mươi phút rồi đi pha cà phê, quay lại thì không còn dấu vết gì. Cả app không có lời báo nào có tiếng, riêng cái này thì có, vì đây đúng là việc bạn đang ngồi chờ.</li><li>Ô giữ máy thức đếm ngược từng giây thay vì đứng im cả phút rồi nhảy một cái.</li><li>Bỏ hết tooltip trong app. Trên Notch thì cái tooltip vàng của hệ thống bật ra đè lên chính cái island.</li></ul>
+<ul><li><strong>Hết hạn dùng thử thì Peek ngừng làm việc.</strong> Nó thu về đúng Notch như chưa cài gì, chỉ nhô ra khi bạn đưa chuột tới. Một dải đen nằm ì suốt ngày để đòi tiền là quấy rối chứ không phải lời nhắc. Bấm chỗ nào trên hàng ấy cũng mở Cài đặt.</li></ul>
+<h3>Đã sửa</h3>
+<ul><li>Lịch đặt báo trước mấy ngày thì chỉ nhắc <strong>đúng một lần</strong> trong cả khoảng ấy, rồi im luôn tới hôm diễn ra. Chọn báo trước một tuần là được nhắc trước bảy ngày rồi thôi, đúng hôm sinh nhật không nói gì. Giờ nó nhắc mỗi ngày một lượt suốt khoảng đó, tính cả hôm diễn ra.</li><li>Viền chọn trên kệ tệp bị cắt sau khi bấm nút qua lại.</li></ul>
 <h3>Đã cải thiện</h3>
-<ul><li>Notch thôi nở thêm khi rê chuột lúc đang phát nhạc, và tên bài giờ nằm cùng một chỗ dù trên màn đang có gì.</li><li>Vạch tay nắm thanh trượt sáng lên khi chuột ở bất cứ đâu trên thanh, không bắt phải nhắm trúng đúng cái vạch.</li><li>Nút phát/dừng nghiêng và phóng to dưới con trỏ với một chút quán tính, còn sóng nhạc thì chuyển màu dần mỗi khi đổi bài.</li></ul>
+<ul><li>Notch chỉ đổ bóng khi con trỏ ở trên nó, còn lại nằm phẳng hơn với màn hình.</li><li>Cài đặt có vạch mảnh ngăn giữa các hàng, và nút căn giữa hàng của nó.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.5.0/Peek-1.5.0.zip" length="3959117" type="application/octet-stream" sparkle:edSignature="qD2SMge/D7/5KPYChy9FnUx58ieaExkpZDcQRDjQYoTICxQJ4kQnr8kAj6V58hVaqfjfngaqemXJO2BjhbcnAA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.6.0/Peek-1.6.0.zip" length="4060907" type="application/octet-stream" sparkle:edSignature="QV1wyIjVeR1iL+QPXULXbP7ml5sgOct6bBODfFeQq5dDYMyQmVrosa44Z7QZa97H5pyeFB6OCeiLMUxZLiBcDA=="/>
         </item>
     </channel>
 </rss>
