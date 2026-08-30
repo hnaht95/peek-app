@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peek</title>
+<meta name="description" content="Dynamic Island cho Notch trên MacBook. A Dynamic Island for the MacBook notch.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23111'/><rect x='9' y='9' width='5' height='14' rx='2.5' fill='%23fff'/><circle cx='21' cy='12' r='3' fill='%23fff'/></svg>">
+<style>
+:root {
+  --ink: #16171a;
+  --dim: #6b6f76;
+  --line: #e3e5e9;
+  --bg: #ffffff;
+  --panel: #f6f7f9;
+  --link: #0b5fd0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e9eaed;
+    --dim: #9297a0;
+    --line: #2a2d33;
+    --bg: #111214;
+    --panel: #191b1f;
+    --link: #6fa8ff;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 700px; margin: 0 auto; padding: 0 24px 96px; }
+
+/* Ngôn ngữ */
+html[lang="vi"] .en, html[lang="en"] .vi { display: none; }
+
+header {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 16px; padding: 56px 0 0;
+}
+.mark { font-size: 21px; font-weight: 640; letter-spacing: -0.015em; }
+.lang { font-size: 13px; color: var(--dim); white-space: nowrap; }
+.lang button {
+  appearance: none; border: 0; background: none; padding: 0 2px; cursor: pointer;
+  font: inherit; color: var(--dim);
+}
+.lang button[aria-pressed="true"] { color: var(--ink); font-weight: 600; }
+.lang span { opacity: .45; padding: 0 3px; }
+
+h1 {
+  margin: 40px 0 0;
+  font-size: 34px; line-height: 1.2; font-weight: 660; letter-spacing: -0.022em;
+}
+.lede { margin: 14px 0 0; font-size: 18px; color: var(--ink); }
+.lede + p { margin: 14px 0 0; color: var(--dim); }
+
+h2 {
+  margin: 56px 0 0; padding-top: 20px; border-top: 1px solid var(--line);
+  font-size: 13px; font-weight: 640; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--dim);
+}
+h2 + * { margin-top: 18px; }
+p { margin: 14px 0 0; }
+
+.get { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.btn {
+  display: inline-block; padding: 11px 20px; border-radius: 9px;
+  background: var(--ink); color: var(--bg);
+  font-size: 15px; font-weight: 600; text-decoration: none;
+}
+.btn:hover { opacity: .86; }
+.get small { color: var(--dim); font-size: 13.5px; }
+
+ol { margin: 18px 0 0; padding-left: 20px; }
+ol li { margin: 5px 0; }
+code {
+  font: 13.5px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--panel); padding: 2px 5px; border-radius: 4px;
+}
+
+dl { margin: 18px 0 0; }
+.row {
+  display: grid; grid-template-columns: 132px 1fr; gap: 4px 24px;
+  padding: 16px 0; border-bottom: 1px solid var(--line);
+}
+.row:last-child { border-bottom: 0; }
+dt { font-weight: 600; }
+dd { margin: 0; color: var(--dim); }
+
+.specs { margin: 18px 0 0; padding: 0; list-style: none; color: var(--dim); }
+.specs li { padding: 7px 0; border-bottom: 1px solid var(--line); }
+.specs li:last-child { border-bottom: 0; }
+
+a { color: var(--link); }
+footer {
+  margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--line);
+  font-size: 13.5px; color: var(--dim);
+}
+
+@media (max-width: 560px) {
+  h1 { font-size: 28px; }
+  .row { grid-template-columns: 1fr; gap: 2px; padding: 14px 0; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="mark">Peek</div>
+  <div class="lang">
+    <button type="button" data-set="vi" aria-pressed="true">Tiếng Việt</button>
+    <span>/</span>
+    <button type="button" data-set="en" aria-pressed="false">English</button>
+  </div>
+</header>
+
+<h1 class="vi">Dynamic Island cho Notch trên MacBook</h1>
+<h1 class="en">A Dynamic Island for the MacBook notch</h1>
+
+<p class="lede vi">Rê chuột lên Notch là nó mở ra: nhạc đang phát, lịch, nhắc uống nước,
+kệ tệp tạm, âm lượng và độ sáng. Không có biểu tượng ở Dock, không chiếm chỗ trên thanh menu.</p>
+<p class="lede en">Hover the notch and it opens: what is playing, your calendar, water
+reminders, a temporary file shelf, volume and brightness. No Dock icon, no menu bar space.</p>
+
+<p class="vi">Máy không có Notch vẫn dùng được. Peek tự vẽ một dải ở giữa mép trên màn hình.</p>
+<p class="en">Macs without a notch work too. Peek draws its own strip along the top of the
+screen.</p>
+
+<h2 class="vi">Tải về</h2>
+<h2 class="en">Download</h2>
+
+<div class="get vi">
+  <a class="btn" href="https://github.com/hnaht95/peek-app/releases/latest">Tải bản mới nhất</a>
+  <small>macOS 13 trở lên</small>
+</div>
+<div class="get en">
+  <a class="btn" href="https://github.com/hnaht95/peek-app/releases/latest">Download the latest release</a>
+  <small>macOS 13 or later</small>
+</div>
+
+<ol class="vi">
+  <li>Giải nén rồi kéo <code>Peek.app</code> vào thư mục Ứng dụng.</li>
+  <li>Bấm đúp để mở.</li>
+</ol>
+<ol class="en">
+  <li>Unzip, then drag <code>Peek.app</code> into Applications.</li>
+  <li>Double click to open.</li>
+</ol>
+
+<p class="vi">App đã ký bằng chứng chỉ Developer ID và đã công chứng với Apple, nên mở thẳng
+được, không phải bấm chuột phải hay tắt bảo mật.</p>
+<p class="en">The app is signed with a Developer ID certificate and notarised with Apple, so
+it opens directly. No right click, no turning off security settings.</p>
+
+<p class="vi">Lần chạy đầu macOS hỏi vài quyền: nghe âm thanh đang phát để vẽ sóng nhạc, và
+điều khiển Music hoặc Spotify để đọc bài đang phát. Từ chối thì app vẫn chạy, chỉ mất mấy
+phần đó.</p>
+<p class="en">On first launch macOS asks for a few permissions: listening to playing audio so
+it can draw the waveform, and controlling Music or Spotify so it can read the current track.
+Decline them and the app still runs, you just lose those parts.</p>
+
+<h2 class="vi">Có gì</h2>
+<h2 class="en">What is in it</h2>
+
+<dl class="vi">
+  <div class="row">
+    <dt>Nhạc</dt>
+    <dd>Ảnh bìa, thanh chạy kéo được, sóng nhạc vẽ theo âm thanh thật chứ không phải hoạt ảnh
+    giả. Thanh âm lượng chỉnh thẳng âm lượng của app đang phát, không đụng vào âm lượng máy.
+    Đọc được Music.app và Spotify.</dd>
+  </div>
+  <div class="row">
+    <dt>Lịch</dt>
+    <dd>Dải bảy ngày, ghi chú theo từng ngày, sinh nhật tự nhắc hằng năm, và ngày lễ tết Việt
+    Nam có sẵn. Danh sách Sắp tới gộp cả ba loại rồi xếp theo thời gian.</dd>
+  </div>
+  <div class="row">
+    <dt>Nước</dt>
+    <dd>Nhắc uống nước theo khoảng thời gian và khung giờ tự đặt. Câu nhắc sửa được.</dd>
+  </div>
+  <div class="row">
+    <dt>Kệ tệp</dt>
+    <dd>Kéo tệp lên Notch để giữ tạm, rồi kéo sang cửa sổ khác. Chọn nhiều tệp kéo một lượt,
+    gửi AirDrop ngay từ đó.</dd>
+  </div>
+  <div class="row">
+    <dt>Máy</dt>
+    <dd>Âm lượng, độ sáng, đổi thiết bị phát, và Shazam nghe nhạc đang phát quanh máy.</dd>
+  </div>
+  <div class="row">
+    <dt>Thẻ báo</dt>
+    <dd>Cắm sạc, pin yếu, pin đầy, kết nối tai nghe kèm phần trăm pin tai nghe, tải tệp xong.</dd>
+  </div>
+</dl>
+
+<dl class="en">
+  <div class="row">
+    <dt>Music</dt>
+    <dd>Artwork, a progress bar you can scrub, and a waveform drawn from the real audio rather
+    than a canned animation. The volume slider moves the playing app's own volume, not the
+    system volume. Reads Music.app and Spotify.</dd>
+  </div>
+  <div class="row">
+    <dt>Calendar</dt>
+    <dd>A seven day strip, notes on any day, birthdays that come back every year, and
+    Vietnamese public holidays built in. The Upcoming list merges all three and sorts them by
+    date.</dd>
+  </div>
+  <div class="row">
+    <dt>Water</dt>
+    <dd>Reminders on an interval and inside the hours you choose. The wording is editable.</dd>
+  </div>
+  <div class="row">
+    <dt>File shelf</dt>
+    <dd>Drop files on the notch to hold them, then drag them out into another window. Select
+    several to drag in one go, or AirDrop them straight from there.</dd>
+  </div>
+  <div class="row">
+    <dt>System</dt>
+    <dd>Volume, brightness, switching audio output, and Shazam for music playing around you.</dd>
+  </div>
+  <div class="row">
+    <dt>Cards</dt>
+    <dd>Charger plugged in, battery low, battery full, headphones connected with their own
+    battery level, and finished downloads.</dd>
+  </div>
+</dl>
+
+<h2 class="vi">Yêu cầu</h2>
+<h2 class="en">Requirements</h2>
+
+<ul class="specs vi">
+  <li>macOS 13 trở lên</li>
+  <li>Sóng nhạc vẽ theo âm thanh thật cần macOS 14.2 trở lên</li>
+</ul>
+<ul class="specs en">
+  <li>macOS 13 or later</li>
+  <li>The waveform drawn from real audio needs macOS 14.2 or later</li>
+</ul>
+
+<h2 class="vi">Góp ý và báo lỗi</h2>
+<h2 class="en">Feedback and bugs</h2>
+
+<p class="vi">Mở <a href="https://github.com/hnaht95/peek-app/issues">Issues</a> trên GitHub.
+Kèm phiên bản macOS và mô tả các bước dẫn tới lỗi thì dễ tìm hơn nhiều.</p>
+<p class="en">Open an <a href="https://github.com/hnaht95/peek-app/issues">issue</a> on GitHub.
+Including your macOS version and the steps that led to the bug makes it much easier to track
+down.</p>
+
+<footer>
+  <span class="vi">Mã nguồn không công khai. © 2026 Thanh Nguyen. Bảo lưu mọi quyền.</span>
+  <span class="en">Source is not public. © 2026 Thanh Nguyen. All rights reserved.</span>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var buttons = document.querySelectorAll('.lang button');
+
+  function apply(lang) {
+    root.lang = lang;
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].setAttribute('aria-pressed', buttons[i].dataset.set === lang ? 'true' : 'false');
+    }
+    try { localStorage.setItem('peek-lang', lang); } catch (e) {}
+  }
+
+  var saved = null;
+  try { saved = localStorage.getItem('peek-lang'); } catch (e) {}
+  // Chưa chọn bao giờ thì đoán theo ngôn ngữ trình duyệt, mặc định tiếng Việt.
+  apply(saved || ((navigator.language || 'vi').slice(0, 2) === 'vi' ? 'vi' : 'en'));
+
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function () { apply(this.dataset.set); });
+  }
+})();
+</script>
+
+</body>
+</html>
