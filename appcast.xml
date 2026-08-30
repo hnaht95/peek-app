@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.6.0</title>
-            <pubDate>Sun, 30 Aug 2026 21:32:15 +0700</pubDate>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+            <title>1.6.1</title>
+            <pubDate>Sun, 30 Aug 2026 22:28:26 +0700</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,26 +34,18 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.6.0</h2>
-<h3>Added</h3>
-<ul><li><strong>Peek is now a paid app, with a 7 day trial.</strong> Settings has a new <strong>Licence</strong> section where you enter the email you bought with and the key you were sent. If you are updating from an earlier version, your seven days start the first time you open this one.</li><li>One licence covers <strong>two Macs</strong>. That figure is written under your key in Settings, so it is where you will look for it rather than only on the page you bought from.</li><li>Checking is <strong>entirely offline</strong>. Your key is a signature over your own email address, and Peek only ever verifies it. There is no server to call, nothing is sent anywhere, and it works with the network down.</li></ul>
-<h3>Changed</h3>
-<ul><li><strong>When the trial runs out, Peek stops working.</strong> It stays folded into the Notch as though nothing were installed, and only leans out when you point at it. A black bar sitting there all day asking for money is harassment, not a reminder. Clicking anywhere along that line opens Settings.</li></ul>
+<h2>What's new in 1.6.1</h2>
 <h3>Fixed</h3>
-<ul><li>Calendar reminders set to warn you some days ahead only spoke up <strong>once</strong> in that whole stretch, and then said nothing on the day itself. Pick "a week before" and you got one reminder seven days out, then silence through the birthday. They now remind you once a day right through, including the day it happens.</li><li>The selection outline on the file shelf was clipped after using the arrow buttons.</li></ul>
+<ul><li>The first click on the trial bar did nothing. A shortcut inside the Notch was swallowing it, so you had to click twice before anything happened.</li><li><strong>Enter key</strong> now opens Settings at the <strong>Licence</strong> section. It used to leave you in General to find it yourself among eight sections, when pressing that button had already said exactly what you wanted.</li></ul>
 <h3>Improved</h3>
-<ul><li>The Notch only casts a shadow while the pointer is on it, so it sits flatter against the screen the rest of the time.</li><li>Settings has hairlines between rows, and buttons sit centred in their row.</li></ul>
-<h2>Có gì mới ở 1.6.0</h2>
-<h3>Đã thêm</h3>
-<ul><li><strong>Peek chuyển sang có phí, dùng thử 7 ngày.</strong> Cài đặt có thêm mục <strong>Bản quyền</strong> để nhập email bạn đã mua và mã được gửi. Nếu bạn đang cập nhật từ bản cũ thì bảy ngày ấy tính từ lần đầu mở bản này.</li><li>Một mã dùng được cho <strong>hai máy</strong>. Con số ấy ghi ngay dưới mã trong Cài đặt, tức đúng chỗ bạn sẽ quay lại xem, chứ không chỉ nằm ở trang bán.</li><li>Kiểm tra <strong>hoàn toàn ngoại tuyến</strong>. Mã của bạn là chữ ký lên chính địa chỉ email của bạn, Peek chỉ việc xác minh. Không có máy chủ nào để gọi, không gửi gì đi đâu, và mất mạng vẫn chạy.</li></ul>
-<h3>Đã đổi</h3>
-<ul><li><strong>Hết hạn dùng thử thì Peek ngừng làm việc.</strong> Nó thu về đúng Notch như chưa cài gì, chỉ nhô ra khi bạn đưa chuột tới. Một dải đen nằm ì suốt ngày để đòi tiền là quấy rối chứ không phải lời nhắc. Bấm chỗ nào trên hàng ấy cũng mở Cài đặt.</li></ul>
+<ul><li><strong>Redrew the bar you see when the trial runs out.</strong> It was one row offering only Enter key, which is the one thing most people who have just run out do not have. Buying, the main way forward, was the only route not spelled out. There are now two buttons, each carrying its own reason: <strong>Trial over / Buy Peek</strong> and <strong>Already bought / Enter key</strong>.</li><li>Those buttons borrow the shape of the file drop targets, so it is a layout you already know rather than a new one to learn at the moment the app has just stopped working. They brighten under the pointer instead of dimming, because here they are buttons to press, not targets to drop onto.</li></ul>
+<h2>Có gì mới ở 1.6.1</h2>
 <h3>Đã sửa</h3>
-<ul><li>Lịch đặt báo trước mấy ngày thì chỉ nhắc <strong>đúng một lần</strong> trong cả khoảng ấy, rồi im luôn tới hôm diễn ra. Chọn báo trước một tuần là được nhắc trước bảy ngày rồi thôi, đúng hôm sinh nhật không nói gì. Giờ nó nhắc mỗi ngày một lượt suốt khoảng đó, tính cả hôm diễn ra.</li><li>Viền chọn trên kệ tệp bị cắt sau khi bấm nút qua lại.</li></ul>
+<ul><li>Cú bấm đầu tiên lên dải hết hạn không ăn. Một đường tắt bên trong Notch nuốt mất, nên phải bấm hai lần mới có gì xảy ra.</li><li>Nút <strong>Nhập mã</strong> giờ mở Cài đặt vào thẳng mục <strong>Giấy phép</strong>. Trước đây nó thả bạn ở mục Chung rồi để tự tìm trong tám mục, trong khi bấm đúng nút ấy là đã nói rõ muốn gì rồi.</li></ul>
 <h3>Đã cải thiện</h3>
-<ul><li>Notch chỉ đổ bóng khi con trỏ ở trên nó, còn lại nằm phẳng hơn với màn hình.</li><li>Cài đặt có vạch mảnh ngăn giữa các hàng, và nút căn giữa hàng của nó.</li></ul>
+<ul><li><strong>Vẽ lại dải hiện ra khi hết hạn dùng thử.</strong> Trước nó chỉ có một hàng và chìa ra mỗi Nhập mã, mà người vừa hết hạn thì phần lớn chưa có mã: lối đi chính lại là lối duy nhất không được nói ra. Giờ có hai nút, mỗi nút tự mang lý do của nó: <strong>Hết hạn dùng thử / Mua Peek</strong> và <strong>Đã mua rồi / Nhập mã</strong>.</li><li>Hai nút ấy mượn dáng của ô thả tệp, tức một bố cục bạn đã quen chứ không phải kiểu bấm mới phải học đúng lúc app vừa ngừng chạy. Rê vào thì chúng sáng lên chứ không tối đi, vì ở đây là nút để bấm chứ không phải ô để thả.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.6.0/Peek-1.6.0.zip" length="4060907" type="application/octet-stream" sparkle:edSignature="QV1wyIjVeR1iL+QPXULXbP7ml5sgOct6bBODfFeQq5dDYMyQmVrosa44Z7QZa97H5pyeFB6OCeiLMUxZLiBcDA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.6.1/Peek-1.6.1.zip" length="4064134" type="application/octet-stream" sparkle:edSignature="QsgDu8bZ3z7FgORaV9UpUwiFk0WGqRjuXcBZbkKXn3kdCbYDwn9KogGIffe2lhtJ0gNnjBgMXOEDlolzgrlODA=="/>
         </item>
     </channel>
 </rss>
