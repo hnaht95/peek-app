@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.3.3</title>
-            <pubDate>Sun, 30 Aug 2026 01:41:59 +0700</pubDate>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+            <title>1.4.0</title>
+            <pubDate>Sun, 30 Aug 2026 15:36:40 +0700</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,26 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.3.3</h2>
+<h2>What's new in 1.4.0</h2>
+<h3>Added</h3>
+<ul><li>A <strong>Permissions</strong> section in Settings. It shows at a glance whether Peek has each of the permissions it needs, and one click asks for any that are missing. If macOS has already refused once and will not ask again, the button takes you straight to the right pane in System Settings.</li><li>A <strong>Default tab</strong> setting. Pick the tab the panel should open on every time, or leave it on Automatic and Peek keeps choosing by whatever is playing.</li></ul>
+<h3>Fixed</h3>
+<ul><li>Holding Command and clicking never built up a selection on the file shelf. Only the file you clicked last stayed selected.</li><li>Tall photos and document icons were squeezed into a fixed landscape frame, so pictures lost their sides and zip files lost their top and bottom.</li><li>The switch and the language picker had thin patches at each end of their outline.</li></ul>
+<h3>Improved</h3>
+<ul><li>Files on the shelf now take their own shape. A zip looks like a document, a screenshot keeps its proportions, and the blue selection outline follows that silhouette instead of drawing a rectangle around it.</li><li>Removing a file shrinks the tile in place while the rest of the row slides across to close the gap.</li><li>The remove button moved to the top right corner and turned red, with a shadow so it stays readable on light artwork.</li><li>Dropdown buttons are taller, and drawn with an outline instead of a grey fill.</li></ul>
 <h3>Changed</h3>
-<ul><li>Tidied up the wording of the update box you are reading this in. It used to run two sentences together with a long dash; now it reads as two, in all fourteen languages where that dash showed up.</li></ul>
-<h2>Có gì mới ở 1.3.3</h2>
+<ul><li>The notch is called <strong>Notch</strong> throughout, in Vietnamese as well as English.</li></ul>
+<h2>Có gì mới ở 1.4.0</h2>
+<h3>Đã thêm</h3>
+<ul><li>Mục <strong>Quyền</strong> trong Cài đặt. Xem một lượt là biết Peek đã có đủ những quyền nó cần chưa, thiếu cái nào thì bấm một cái xin luôn. Nếu macOS đã từ chối một lần và không hỏi lại nữa, nút sẽ đưa thẳng tới đúng ngăn trong Cài đặt hệ thống.</li><li>Tuỳ chọn <strong>Tab mở sẵn</strong>. Chọn tab bạn muốn bảng mở vào mỗi lần, hoặc để Tự chọn cho Peek nhìn việc đang chạy mà quyết.</li></ul>
+<h3>Đã sửa</h3>
+<ul><li>Giữ ⌘ rồi bấm không gom được nhiều tệp trên kệ, chỉ tệp bấm sau cùng là còn được chọn.</li><li>Ảnh dựng đứng và hình tệp tài liệu bị nhét vào một khung ngang cố định, nên ảnh mất hai bên còn tệp nén mất đầu đuôi.</li><li>Công tắc và ô chọn ngôn ngữ bị mỏng viền ở hai đầu.</li></ul>
+<h3>Đã cải thiện</h3>
+<ul><li>Ô trên kệ lấy đúng dáng của tệp. Tệp nén trông ra tờ tài liệu, ảnh chụp giữ nguyên tỉ lệ, và viền xanh báo đang chọn ôm theo dáng ấy chứ không vẽ một khung chữ nhật quanh nó.</li><li>Bỏ một tệp thì ô thu vào giữa, hàng ô còn lại trượt sang lấp chỗ trống.</li><li>Nút bỏ tệp về góc trên phải và chuyển sang màu đỏ, có bóng nên nằm trên ảnh sáng vẫn rõ.</li><li>Ô xổ xuống cao hơn, và vẽ bằng nét viền thay cho nền xám.</li></ul>
 <h3>Đã đổi</h3>
-<ul><li>Sửa lại lời trong chính hộp thoại cập nhật bạn đang đọc. Trước đây nó nối hai vế bằng một dấu gạch dài, nay tiếng Việt nối bằng dấu phẩy còn mười ba thứ tiếng kia tách hẳn thành hai câu.</li></ul>
+<ul><li>Gọi là <strong>Notch</strong> ở mọi chỗ, tiếng Việt cũng vậy.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.3.3/Peek-1.3.3.zip" length="3828178" type="application/octet-stream" sparkle:edSignature="m5KHLW7ohkVuWw1zu170OH9H0YChUX1mp77O7un0FNKeTBb8IvlDQ7kIdvoP3Q2M4TKEzKzwWd9m5qAJns30AA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.4.0/Peek-1.4.0.zip" length="3938176" type="application/octet-stream" sparkle:edSignature="aiHXWg+8Mq/0Dpk39MnYXRg1jMoptkHkoPcujLhQj63/Sk2hj8AVDt6El0c0RyhVa5bqlvy4Ma3usrnFAdQ9Bg=="/>
         </item>
     </channel>
 </rss>
