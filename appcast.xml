@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.7.1</title>
-            <pubDate>Mon, 31 Aug 2026 23:55:46 +0700</pubDate>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>1.7.1</sparkle:shortVersionString>
+            <title>1.8.0</title>
+            <pubDate>Wed, 02 Sep 2026 01:49:01 +0700</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,18 +34,22 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.7.1</h2>
+<h2>What's new in 1.8.0</h2>
 <h3>Added</h3>
-<ul><li><strong>A Need help? link in Settings › License.</strong> If anything ever goes wrong with your key, that is one click to reach me, rather than hunting for somewhere to write to.</li></ul>
+<ul><li><strong>Click a clipboard item and it lands straight in the field you were typing in.</strong> Copying still always happens. Pasting only happens when there really is a text field holding focus, so a click can never fire ⌘V into whatever app happens to be in front.</li><li><strong>A search box in the Clipboard tab.</strong> It rests as a magnifier button in the header and opens out when you click it, so it costs no height until you want it.</li><li><strong>Each row now shows the app the text came from</strong>, asked for at the moment you copy rather than later, when you have long since moved on.</li><li><strong>Saved clipboard items now sync through iCloud.</strong> History deliberately does not: that is each Mac's own timeline, and carrying it across would only add noise.</li><li>A <strong>Paste into other apps</strong> row in Settings › Permissions, so you can see whether Peek is allowed to do the above.</li></ul>
+<h3>Fixed</h3>
+<ul><li><strong>The Clipboard tab now tells you when macOS is blocking it from reading.</strong> It used to go quiet and show an empty list, which reads as a broken app rather than a permission buried in System Settings.</li><li><strong>iCloud sync could quietly miss changes from your other Mac.</strong> Only one part of the app could be told about them, and whichever registered second replaced the first without a sound.</li></ul>
 <h3>Improved</h3>
-<ul><li>Tidied up the wording in Settings › License. It used to run to a small paragraph of explanation; it now says what it needs to in a line.</li></ul>
-<h2>Có gì mới ở 1.7.1</h2>
+<ul><li>Clicking an item no longer folds the panel away, so you can take several in a row. Move the pointer off the Notch and it closes by itself.</li><li><strong>The water reminder message got a proper editing flow.</strong> The button is a pencil until you press it; then it becomes save, the old text clears, and the cursor waits at the start. Clicking the text itself no longer starts an edit, so there is one way in rather than two that behaved differently.</li></ul>
+<h2>Có gì mới ở 1.8.0</h2>
 <h3>Đã thêm</h3>
-<ul><li><strong>Liên kết Cần hỗ trợ? ở Cài đặt › Bản quyền.</strong> Mã có trục trặc gì thì một cú bấm là liên hệ được, khỏi phải đi tìm xem nhắn vào đâu.</li></ul>
+<ul><li><strong>Bấm một mục trong Bảng tạm là nó rơi thẳng vào ô bạn đang gõ dở.</strong> Chép thì vẫn luôn chép. Còn dán chỉ xảy ra khi thật sự có một ô nhập chữ đang giữ tiêu điểm, nên một cú bấm không bao giờ thành cú gõ ⌘V vào bất kỳ app nào đang đứng trước.</li><li><strong>Ô tìm trong tab Bảng tạm.</strong> Lúc rảnh nó chỉ là một nút kính lúp nằm trong hàng tiêu đề, bấm mới nở ra, nên không lấy thêm chút chiều cao nào của bảng.</li><li><strong>Mỗi hàng giờ hiện hình app mà đoạn chữ ấy đến từ đó</strong>, hỏi ngay lúc bạn copy chứ không đợi tới lúc vẽ hàng, khi bạn đã đổi sang app khác từ lâu.</li><li><strong>Mục Bảng tạm đã cất giờ đồng bộ qua iCloud.</strong> Lịch sử thì cố ý không: đó là dòng thời gian của riêng từng máy, đem sang máy khác chỉ làm nhiễu.</li><li>Hàng <strong>Dán vào app khác</strong> trong Cài đặt › Quyền, để nhìn ra Peek có được phép làm việc trên hay không.</li></ul>
+<h3>Đã sửa</h3>
+<ul><li><strong>Tab Bảng tạm giờ tự nói ra khi bị macOS chặn đọc.</strong> Trước đây nó lặng lẽ ngừng ghi và bày ra một danh sách rỗng, đọc thành "app hỏng" chứ không ai nghĩ tới một ngăn quyền nằm sâu trong Cài đặt hệ thống.</li><li><strong>Đồng bộ iCloud có lúc bỏ sót thay đổi từ máy kia.</strong> Chỉ một phần của app được báo, mà phần đăng ký sau thì đè mất phần đăng ký trước, không một tiếng động.</li></ul>
 <h3>Đã cải thiện</h3>
-<ul><li>Gọn lại chữ nghĩa ở Cài đặt › Bản quyền. Trước đó nó dài thành một đoạn giải thích, giờ nói đủ ý trong một dòng.</li></ul>
+<ul><li>Bấm một mục không còn làm bảng thu lại, nên lấy liền mấy mục một lúc được. Rời con trỏ khỏi Notch là nó tự thu.</li><li><strong>Ô câu nhắc nước có luồng sửa đàng hoàng.</strong> Nút là cây bút cho tới khi bạn bấm; bấm rồi thì nó thành nút lưu, câu cũ được xoá sạch, con trỏ đợi sẵn ở đầu. Bấm vào chính dòng chữ không còn mở sửa nữa, để chỉ có một lối vào thay vì hai lối làm hai kiểu khác nhau.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.7.1/Peek-1.7.1.zip" length="4109452" type="application/octet-stream" sparkle:edSignature="eRhJIGnHPQuR7GfRa5FLSj02+2rHDzFlqzPq9YE3945jQNc7MlIRj0SJhYnTHNI35TzN4oknxDv36p+pAh8jAA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.8.0/Peek-1.8.0.zip" length="4220254" type="application/octet-stream" sparkle:edSignature="XddDgWAsRg9LoUIFzoRo2tJHO5V+PlboDOmeDGD+ugDRVHxTuYA1JiNKhyhDFXnJF8EDwA/e3cUVr9o4ndrfAQ=="/>
         </item>
     </channel>
 </rss>
