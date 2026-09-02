@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.8.1</title>
-            <pubDate>Wed, 02 Sep 2026 15:56:49 +0700</pubDate>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
+            <title>1.8.2</title>
+            <pubDate>Wed, 02 Sep 2026 22:34:46 +0700</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,18 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.8.1</h2>
+<h2>What's new in 1.8.2</h2>
 <h3>Fixed</h3>
-<ul><li><strong>Clicking a clipboard item sometimes only copied instead of pasting, with no pattern to it.</strong> Peek notes which app you were typing in as your pointer reaches the Notch, and that question is slow the first time after a restart. A click landing in that gap found nothing noted. It now asks again on the spot rather than giving up.</li><li><strong>Album art sometimes turned up late.</strong> It was fetched through the same queue as the now-playing checks, so it waited behind a five second poll, and while it ran the track name and position waited behind it. It has its own queue now.</li></ul>
-<h3>Improved</h3>
-<ul><li><strong>Album art now fades from one track to the next.</strong> It used to blank to white first and then go looking, which with Spotify means a download, so the empty square was there long enough to see.</li><li><strong>The clipboard history has a scroll thumb that Peek draws itself.</strong> It is there the moment you open the panel and fades once you stop scrolling. The system one hid itself and obeyed a per-Mac setting, so some people saw it and others never did.</li><li>The Notch opens a touch more slowly when the track changes, so the new artwork has time to arrive with it.</li></ul>
-<h2>Có gì mới ở 1.8.1</h2>
+<ul><li><strong>The panel closed itself while you were still typing.</strong> Typing means your pointer sits still, and where it sits may be outside the Notch, so Peek decided you had left and folded the panel away mid-sentence, taking what you had typed with it.</li><li><strong>A half-typed birthday was lost the moment you clicked anywhere else.</strong> Clicking away should close the panel, that part was right. What should not vanish is what you had already written. It now comes back when you reopen.</li><li><strong>While you were typing, clicks meant for other apps went nowhere.</strong> Peek's window is far larger than the island you can see, and it was holding on to mouse input for the whole of that area, so a double-click to open a folder in Finder simply did not land.</li><li><strong>The water reminder message was being overwritten as you typed.</strong> Pressing the pencil wiped the saved message straight away, and every keystroke went into the real one, so typing a few characters and walking off left that as your reminder, with nothing asked. Now you type into a draft and only the save button commits it.</li></ul>
+<h2>Có gì mới ở 1.8.2</h2>
 <h3>Đã sửa</h3>
-<ul><li><strong>Bấm một mục Bảng tạm có lúc chỉ chép chứ không dán, mà không theo quy luật nào.</strong> Peek ghi nhớ app bạn đang gõ dở ngay lúc con trỏ chạm Notch, và lần hỏi đầu tiên sau khi khởi động lại thì rất chậm. Cú bấm rơi đúng quãng ấy là chẳng có gì để nhớ. Giờ nó hỏi bù ngay tại chỗ thay vì chịu thua.</li><li><strong>Ảnh bìa có lúc hiện chậm.</strong> Nó đi chung hàng đợi với mấy lượt hỏi bài đang phát, nên vừa phải xếp sau một lượt dò năm giây, vừa chặn tên bài và vị trí phát đứng chờ theo. Giờ nó đi đường riêng.</li></ul>
-<h3>Đã cải thiện</h3>
-<ul><li><strong>Ảnh bìa đổi bài thì mờ chồng vào nhau.</strong> Trước đây nó xoá về trắng rồi mới đi lấy ảnh mới, mà với Spotify thì đó là một lượt tải qua mạng, nên ô trắng trơn nằm đó đủ lâu để nhìn thấy.</li><li><strong>Lịch sử Bảng tạm có núm cuộn do Peek tự vẽ.</strong> Mở bảng ra là thấy ngay, ngừng cuộn thì mờ đi. Núm của hệ thống thì tự ẩn và còn nghe theo một tuỳ chọn riêng của từng máy, nên có người thấy có người không bao giờ thấy.</li><li>Notch xổ xuống chậm hơn một chút khi đổi bài, để ảnh bìa mới kịp về cùng lúc.</li></ul>
+<ul><li><strong>Bảng tự đóng khi bạn còn đang gõ dở.</strong> Lúc gõ thì con trỏ đứng yên một chỗ, mà chỗ ấy có thể nằm ngoài Notch, nên Peek tưởng bạn đã đi và thu bảng lại giữa câu, mang theo cả đoạn bạn vừa gõ.</li><li><strong>Sinh nhật gõ dở mất sạch ngay khi bấm ra chỗ khác.</strong> Bấm ra ngoài thì bảng đóng là đúng, bạn chủ động đi chỗ khác mà. Thứ không được biến mất là đoạn bạn đã viết. Giờ mở lại là nó còn nguyên.</li><li><strong>Đang gõ thì cú bấm dành cho app khác rơi vào hư không.</strong> Cửa sổ của Peek rộng hơn hẳn cái island bạn nhìn thấy, mà nó lại giữ quyền nhận chuột cho cả vùng ấy, nên bấm đúp mở một thư mục trong Finder là không ăn.</li><li><strong>Câu nhắc nước bị ghi đè ngay trong lúc gõ.</strong> Bấm nút bút là câu đã lưu bị xoá luôn, rồi mỗi phím gõ vào lại ghi thẳng vào câu thật, nên gõ vài chữ rồi bỏ đi là mấy chữ ấy thành câu nhắc của bạn, không ai hỏi lại một tiếng. Giờ bạn gõ vào bản nháp, chỉ nút lưu mới chốt lại.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.8.1/Peek-1.8.1.zip" length="4247133" type="application/octet-stream" sparkle:edSignature="z1mNmh04SxRkHSmu9RoQraaIwEmetKWVHXSSy19dzPwJtxAy7zNfYhvPGL0DJYm5F2zfmpx5FmzK9KHS1W/DBw=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.8.2/Peek-1.8.2.zip" length="4252519" type="application/octet-stream" sparkle:edSignature="vq6lq8Ei+FSCGoILEfpfibjOX4iHTyl/KBJ6bRLapAvNmkPee7qfPQEjmTECtZ1Ss4CwCEvGOzoc7Ag9IC3CCA=="/>
         </item>
     </channel>
 </rss>
