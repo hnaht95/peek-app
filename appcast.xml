@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.8.2</title>
-            <pubDate>Wed, 02 Sep 2026 22:34:46 +0700</pubDate>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>1.8.2</sparkle:shortVersionString>
+            <title>1.8.3</title>
+            <pubDate>Wed, 02 Sep 2026 23:14:25 +0700</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>1.8.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.8.2</h2>
+<h2>What's new in 1.8.3</h2>
 <h3>Fixed</h3>
-<ul><li><strong>The panel closed itself while you were still typing.</strong> Typing means your pointer sits still, and where it sits may be outside the Notch, so Peek decided you had left and folded the panel away mid-sentence, taking what you had typed with it.</li><li><strong>A half-typed birthday was lost the moment you clicked anywhere else.</strong> Clicking away should close the panel, that part was right. What should not vanish is what you had already written. It now comes back when you reopen.</li><li><strong>While you were typing, clicks meant for other apps went nowhere.</strong> Peek's window is far larger than the island you can see, and it was holding on to mouse input for the whole of that area, so a double-click to open a folder in Finder simply did not land.</li><li><strong>The water reminder message was being overwritten as you typed.</strong> Pressing the pencil wiped the saved message straight away, and every keystroke went into the real one, so typing a few characters and walking off left that as your reminder, with nothing asked. Now you type into a draft and only the save button commits it.</li></ul>
-<h2>Có gì mới ở 1.8.2</h2>
+<ul><li><strong>Clicks still went missing near the top of the screen, and double-clicking a folder in Finder often did nothing.</strong> 1.8.2 closed one way this happened; this closes the other. A mouse press anywhere inside Peek's window, which is much larger than the island you can see, switched the window into catching mouse input part way through the click and then swallowed what followed. Peek now only does that when the press actually landed on the island or on a water reminder card. Dragging the timer ruler past the edge still works.</li></ul>
+<h2>Có gì mới ở 1.8.3</h2>
 <h3>Đã sửa</h3>
-<ul><li><strong>Bảng tự đóng khi bạn còn đang gõ dở.</strong> Lúc gõ thì con trỏ đứng yên một chỗ, mà chỗ ấy có thể nằm ngoài Notch, nên Peek tưởng bạn đã đi và thu bảng lại giữa câu, mang theo cả đoạn bạn vừa gõ.</li><li><strong>Sinh nhật gõ dở mất sạch ngay khi bấm ra chỗ khác.</strong> Bấm ra ngoài thì bảng đóng là đúng, bạn chủ động đi chỗ khác mà. Thứ không được biến mất là đoạn bạn đã viết. Giờ mở lại là nó còn nguyên.</li><li><strong>Đang gõ thì cú bấm dành cho app khác rơi vào hư không.</strong> Cửa sổ của Peek rộng hơn hẳn cái island bạn nhìn thấy, mà nó lại giữ quyền nhận chuột cho cả vùng ấy, nên bấm đúp mở một thư mục trong Finder là không ăn.</li><li><strong>Câu nhắc nước bị ghi đè ngay trong lúc gõ.</strong> Bấm nút bút là câu đã lưu bị xoá luôn, rồi mỗi phím gõ vào lại ghi thẳng vào câu thật, nên gõ vài chữ rồi bỏ đi là mấy chữ ấy thành câu nhắc của bạn, không ai hỏi lại một tiếng. Giờ bạn gõ vào bản nháp, chỉ nút lưu mới chốt lại.</li></ul>
+<ul><li><strong>Cú bấm vẫn mất khi ở gần mép trên màn hình, và bấm đúp một thư mục trong Finder thường không ăn.</strong> Bản 1.8.2 đã bịt một đường gây ra chuyện này, bản này bịt nốt đường còn lại. Bấm chuột xuống ở bất cứ đâu trong cửa sổ của Peek, vốn rộng hơn hẳn cái island bạn nhìn thấy, là cửa sổ bật chế độ nhận chuột ngay giữa cú bấm rồi nuốt luôn những cú sau. Giờ nó chỉ bật khi cú bấm thật sự rơi trên island hoặc trên thẻ nhắc nước. Kéo thước hẹn giờ ra ngoài mép vẫn được như cũ.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.8.2/Peek-1.8.2.zip" length="4252519" type="application/octet-stream" sparkle:edSignature="vq6lq8Ei+FSCGoILEfpfibjOX4iHTyl/KBJ6bRLapAvNmkPee7qfPQEjmTECtZ1Ss4CwCEvGOzoc7Ag9IC3CCA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.8.3/Peek-1.8.3.zip" length="4252608" type="application/octet-stream" sparkle:edSignature="0onC9XJs8RvsxV3U/LTlSQTh3n44hXiuUq181JqVojL0znupTRTwFQTcgOf2fAZpRWRvd5luj/96ekGQhGNwBw=="/>
         </item>
     </channel>
 </rss>
