@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.8.5</title>
-            <pubDate>Thu, 03 Sep 2026 11:30:13 +0700</pubDate>
-            <sparkle:version>28</sparkle:version>
-            <sparkle:shortVersionString>1.8.5</sparkle:shortVersionString>
+            <title>1.8.6</title>
+            <pubDate>Thu, 03 Sep 2026 12:25:43 +0700</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>1.8.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.8.5</h2>
+<h2>What's new in 1.8.6</h2>
 <h3>Fixed</h3>
-<ul><li><strong>Apple Music album art sometimes never appeared.</strong> Peek was giving the same song two different names, because the two places it learns about the current track each name it differently. Every time those two spoke in turn, Peek thought the track had changed, went to fetch the art again, and the housekeeping that clears art belonging to an older track could wipe the correct one while that fetch was still in flight. It only landed when Music was busy, which is why it came and went with no pattern.</li><li>The same fault made Peek fetch album art twice for every song. Measured: three skips used to raise seven track changes, now they raise three.</li></ul>
-<h2>Có gì mới ở 1.8.5</h2>
+<ul><li><strong>Clicking the Notch to open the panel sometimes did nothing, and you had to click again.</strong> It showed up most when you ran the pointer up to the top edge and clicked straight away, while music was playing. Peek now decides that click itself from the pointer position instead of waiting for the interface layer to work out what was under the cursor, which turned out not to be dependable right at the screen edge. Measured after the change: 81 clicks, 79 opened the panel, 2 landed on the play button, none lost.</li></ul>
+<h2>Có gì mới ở 1.8.6</h2>
 <h3>Đã sửa</h3>
-<ul><li><strong>Ảnh bìa Apple Music có lúc không bao giờ hiện.</strong> Peek đặt hai tên khác nhau cho cùng một bài, vì hai chỗ nó biết bài đang phát thì mỗi chỗ đặt một kiểu. Cứ mỗi lần hai chỗ ấy nói xen nhau là Peek tưởng vừa đổi bài, đi lấy ảnh lại từ đầu, mà phần dọn ảnh của bài cũ thì có thể xoá nhầm tấm đang đúng trong lúc lượt lấy mới chưa xong. Chỉ trúng khi Music đang bận, nên nó lúc có lúc không mà chẳng theo quy luật nào.</li><li>Cũng chính lỗi ấy làm Peek đi lấy ảnh bìa hai lượt cho mỗi bài. Đo được: ba lần chuyển bài trước đây nổ bảy lượt đổi bài, giờ còn ba.</li></ul>
+<ul><li><strong>Bấm vào Notch để mở bảng có lúc không ăn, phải bấm lại lần nữa.</strong> Hay gặp nhất khi rê chuột từ dưới lên sát mép trên rồi bấm ngay, lúc đang phát nhạc. Giờ Peek tự quyết cú bấm ấy theo vị trí con trỏ, thay vì đợi tầng giao diện xét xem dưới con trỏ có gì, mà việc ấy hoá ra không chắc chắn ở ngay sát mép màn hình. Đo sau khi sửa: 81 cú bấm, 79 mở bảng, 2 rơi vào nút phát, không cú nào mất.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.8.5/Peek-1.8.5.zip" length="4254435" type="application/octet-stream" sparkle:edSignature="PudlgXm56lkhm3X9lSn+YWCkI0vHp61YjqQhziNSYcwKCvNEQiNjasj8E2I0czJKK/7S+wJd2yO+vxncNmKjCQ=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.8.6/Peek-1.8.6.zip" length="4254818" type="application/octet-stream" sparkle:edSignature="xcXjnfyaCqFJpesxNirB9rOKZo5E+y2QM1pV0cnGZU2xiAKVB0ZF1Vo1gESHGOWlOoeVoq1/dg+8mHrfQSoYAQ=="/>
         </item>
     </channel>
 </rss>
