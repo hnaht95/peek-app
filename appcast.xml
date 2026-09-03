@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.8.3</title>
-            <pubDate>Wed, 02 Sep 2026 23:14:25 +0700</pubDate>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>1.8.3</sparkle:shortVersionString>
+            <title>1.8.4</title>
+            <pubDate>Thu, 03 Sep 2026 10:51:29 +0700</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>1.8.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,18 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.8.3</h2>
+<h2>What's new in 1.8.4</h2>
 <h3>Fixed</h3>
-<ul><li><strong>Clicks still went missing near the top of the screen, and double-clicking a folder in Finder often did nothing.</strong> 1.8.2 closed one way this happened; this closes the other. A mouse press anywhere inside Peek's window, which is much larger than the island you can see, switched the window into catching mouse input part way through the click and then swallowed what followed. Peek now only does that when the press actually landed on the island or on a water reminder card. Dragging the timer ruler past the edge still works.</li></ul>
-<h2>Có gì mới ở 1.8.3</h2>
+<ul><li><strong>While music was playing, clicking the track title did not open the panel.</strong> The title spans nearly the whole width of the Notch when you point at it, so the easiest place to aim was the one place a click did nothing. Clicking the black around it worked, which is why this felt like it only failed sometimes.</li></ul>
+<h3>Changed</h3>
+<ul><li><strong>New installs now start in the Notch shape</strong> rather than Sag. If you have already picked a shape, yours is untouched. You can still switch in Settings › Appearance.</li></ul>
+<h2>Có gì mới ở 1.8.4</h2>
 <h3>Đã sửa</h3>
-<ul><li><strong>Cú bấm vẫn mất khi ở gần mép trên màn hình, và bấm đúp một thư mục trong Finder thường không ăn.</strong> Bản 1.8.2 đã bịt một đường gây ra chuyện này, bản này bịt nốt đường còn lại. Bấm chuột xuống ở bất cứ đâu trong cửa sổ của Peek, vốn rộng hơn hẳn cái island bạn nhìn thấy, là cửa sổ bật chế độ nhận chuột ngay giữa cú bấm rồi nuốt luôn những cú sau. Giờ nó chỉ bật khi cú bấm thật sự rơi trên island hoặc trên thẻ nhắc nước. Kéo thước hẹn giờ ra ngoài mép vẫn được như cũ.</li></ul>
+<ul><li><strong>Đang phát nhạc thì bấm vào tên bài không mở được bảng.</strong> Lúc rê chuột vào, tên bài chiếm gần trọn bề ngang Notch, nên chỗ dễ nhắm nhất lại là chỗ duy nhất bấm không ăn. Bấm vào phần đen quanh nó thì vẫn được, nên nhìn ra như thỉnh thoảng mới hỏng.</li></ul>
+<h3>Đã đổi</h3>
+<ul><li><strong>Máy cài mới giờ khởi đầu bằng dáng Notch</strong> thay vì Võng. Ai đã tự chọn dáng rồi thì giữ nguyên lựa chọn của mình. Đổi lúc nào cũng được ở Cài đặt › Hình dáng.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.8.3/Peek-1.8.3.zip" length="4252608" type="application/octet-stream" sparkle:edSignature="0onC9XJs8RvsxV3U/LTlSQTh3n44hXiuUq181JqVojL0znupTRTwFQTcgOf2fAZpRWRvd5luj/96ekGQhGNwBw=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.8.4/Peek-1.8.4.zip" length="4253405" type="application/octet-stream" sparkle:edSignature="loa06vNl2bsDFp73DTU135YEkbKm0+ql5fsE0I7VpY8D4ad5SX/KoplRCMFA7/KaX6FtqC/gGbqOhv5Pz0AVAA=="/>
         </item>
     </channel>
 </rss>
