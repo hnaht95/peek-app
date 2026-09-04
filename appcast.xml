@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.8.6</title>
-            <pubDate>Thu, 03 Sep 2026 12:25:43 +0700</pubDate>
-            <sparkle:version>29</sparkle:version>
-            <sparkle:shortVersionString>1.8.6</sparkle:shortVersionString>
+            <title>1.8.7</title>
+            <pubDate>Fri, 04 Sep 2026 23:03:49 +0700</pubDate>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>1.8.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,22 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.8.6</h2>
+<h2>What's new in 1.8.7</h2>
+<h3>Added</h3>
+<ul><li>When an app fills the whole screen, the Notch gets out of the way: it disappears and stops taking clicks, so nothing sits over what you are watching.</li><li>Push the pointer right against the top edge and hold it there for half a second to bring the Notch back.</li><li>Macs with a real notch are left as they were, since there the Notch sits inside the camera cut-out and covers nothing.</li></ul>
 <h3>Fixed</h3>
-<ul><li><strong>Clicking the Notch to open the panel sometimes did nothing, and you had to click again.</strong> It showed up most when you ran the pointer up to the top edge and clicked straight away, while music was playing. Peek now decides that click itself from the pointer position instead of waiting for the interface layer to work out what was under the cursor, which turned out not to be dependable right at the screen edge. Measured after the change: 81 clicks, 79 opened the panel, 2 landed on the play button, none lost.</li></ul>
-<h2>Có gì mới ở 1.8.6</h2>
+<ul><li>Dragging a file towards the shelf opens the Notch while the file is still on its way, instead of only once it reaches the very edge.</li><li>Turning on "Tap to paste" now asks for Accessibility permission on the spot. Without that permission, tapping an item only copied it, and nothing said why.</li></ul>
+<h3>Improved</h3>
+<ul><li>The "Keep" drop zone lights up green while a file is over it, so it is clear which of the two zones will take the file.</li><li>Clearer wording on the paste switch and on the Accessibility row in Settings.</li></ul>
+<h2>Có gì mới ở 1.8.7</h2>
+<h3>Đã thêm</h3>
+<ul><li>Có app chiếm trọn màn hình thì Notch nhường chỗ: nó lặn hẳn và thôi nhận cả cú bấm, không còn nằm đè lên thứ bạn đang xem.</li><li>Đẩy con trỏ chạm sát mép trên và giữ nửa giây thì Notch hiện lại.</li><li>Máy có tai thỏ thật thì giữ nguyên như cũ, vì ở đó Notch nằm gọn trong phần khoét nên không che mất gì.</li></ul>
 <h3>Đã sửa</h3>
-<ul><li><strong>Bấm vào Notch để mở bảng có lúc không ăn, phải bấm lại lần nữa.</strong> Hay gặp nhất khi rê chuột từ dưới lên sát mép trên rồi bấm ngay, lúc đang phát nhạc. Giờ Peek tự quyết cú bấm ấy theo vị trí con trỏ, thay vì đợi tầng giao diện xét xem dưới con trỏ có gì, mà việc ấy hoá ra không chắc chắn ở ngay sát mép màn hình. Đo sau khi sửa: 81 cú bấm, 79 mở bảng, 2 rơi vào nút phát, không cú nào mất.</li></ul>
+<ul><li>Kéo tệp về phía kệ thì Notch mở ra ngay lúc tệp còn đang tới, chứ không đợi tệp lên tận mép.</li><li>Bật công tắc "Bấm là dán luôn" thì Peek xin quyền Trợ năng ngay tại chỗ. Thiếu quyền ấy thì bấm một mục chỉ chép lại, mà không có gì nói cho biết vì sao.</li></ul>
+<h3>Đã cải thiện</h3>
+<ul><li>Ô "Giữ tạm" sáng xanh lá khi tệp đang ở trên nó, nhìn là biết ô nào sắp nhận.</li><li>Viết lại chữ ở công tắc dán và ở hàng quyền Trợ năng trong Cài đặt cho gọn và dễ hiểu.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.8.6/Peek-1.8.6.zip" length="4254818" type="application/octet-stream" sparkle:edSignature="xcXjnfyaCqFJpesxNirB9rOKZo5E+y2QM1pV0cnGZU2xiAKVB0ZF1Vo1gESHGOWlOoeVoq1/dg+8mHrfQSoYAQ=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.8.7/Peek-1.8.7.zip" length="4269406" type="application/octet-stream" sparkle:edSignature="HX+Fpsd/0wpy1VZg2AbaAFjKwVBMQb1ofIDARdvwlv9uwZIA+Z6xutdS+MyF6oRg0IIfXH4xyScJLsLKkn87BA=="/>
         </item>
     </channel>
 </rss>
