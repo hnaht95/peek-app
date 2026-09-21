@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.9.1</title>
-            <pubDate>Fri, 18 Sep 2026 14:28:03 +0700</pubDate>
-            <sparkle:version>34</sparkle:version>
-            <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
+            <title>1.9.2</title>
+            <pubDate>Mon, 21 Sep 2026 15:00:18 +0700</pubDate>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.9.1</h2>
+<h2>What's new in 1.9.2</h2>
 <h3>Fixed</h3>
-<ul><li>Water reminders keep coming after you turn off "Repeat after 5′". Turning it off at the wrong moment could silence them for good, until you switched it back on.</li><li>Dragging a file out of the shelf no longer drops it straight back in.</li><li>A file dragged out of the shelf now lands in windows near the top of the screen. Peek was catching the drop, so only windows placed lower down received it.</li></ul>
-<h2>Có gì mới ở 1.9.1</h2>
+<ul><li>A window dragged down past the bottom of the screen no longer makes the Notch switch to the flat edge on its own.</li><li>Peek used to mistake that window for an app in full screen, so the Notch hid away and needed a half-second hover to come back, even with the Notch style selected.</li></ul>
+<h2>Có gì mới ở 1.9.2</h2>
 <h3>Đã sửa</h3>
-<ul><li>Tắt "Nhắc lại sau 5′" thì nhắc uống nước vẫn tới đều. Trước đây tắt đúng lúc là nhắc im luôn, cho tới khi bật nút lại.</li><li>Kéo tệp ra khỏi kệ thì tệp không còn rơi ngược vào kệ nữa.</li><li>Kéo tệp từ kệ thả vào cửa sổ ở gần mép trên màn hình đã ăn. Trước đây Peek chặn mất cú thả, chỉ cửa sổ nằm thấp mới nhận được.</li></ul>
+<ul><li>Kéo một cửa sổ xuống thấp, thò quá mép dưới màn hình, không còn làm Notch tự chuyển sang dạng mép thẳng.</li><li>Trước đây Peek nhầm cửa sổ ấy là app đang toàn màn hình, nên Notch lặn đi và phải giữ chuột nửa giây mới hiện, kể cả khi đang chọn dáng Notch.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.1/Peek-1.9.1.zip" length="4272287" type="application/octet-stream" sparkle:edSignature="CCJKr/v8ZIZQBZmNXAsdiMH2DRGy2FtjTAyO8NdcLxErBeziIi6qCfY0+3KDceNdu7UhYWrDws6lgQnrjoHxCQ=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.2/Peek-1.9.2.zip" length="4272318" type="application/octet-stream" sparkle:edSignature="O6WOdw9fsj+B23IOXACgNLxiC3ytwQQFFQK/F/LkvqISblwIY4CGwZV+/4y1BHwXsgVnzir5B/8f5/xztPjTCw=="/>
         </item>
     </channel>
 </rss>
