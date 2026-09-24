@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.9.5</title>
-            <pubDate>Thu, 24 Sep 2026 20:47:20 +0700</pubDate>
-            <sparkle:version>38</sparkle:version>
-            <sparkle:shortVersionString>1.9.5</sparkle:shortVersionString>
+            <title>1.9.6</title>
+            <pubDate>Thu, 24 Sep 2026 21:00:58 +0700</pubDate>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>1.9.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,22 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.9.5</h2>
-<h3>Added</h3>
-<ul><li>The Calendar tab now opens a real month page. It always starts on the week holding the 1st, and the two arrows turn a whole month at a time instead of a week.</li><li>A thin outline traces the month itself, stepping around the days that belong to the month before and the month after.</li><li>Saturday and Sunday sit on a tinted band, so a weekend is easy to pick out at a glance.</li><li>The column beside the calendar shows four things coming up instead of three.</li><li>Click one of those rows and the calendar travels to that day and picks it, so you can see where it lands.</li></ul>
+<h2>What's new in 1.9.6</h2>
 <h3>Fixed</h3>
-<ul><li>Turning the page jerked at the very end. The grid was tidied away one frame before the movement finished, so the calendar snapped over the last of the distance.</li><li>The outline of the month you were leaving stayed on screen after the new page had settled.</li><li>Opening the month view put a "Today" button in the header even when the page on screen was already this month.</li><li>Folding the month back to one week left you on whatever week the page happened to start on, not the week you were looking at.</li></ul>
-<h3>Improved</h3>
-<ul><li>The header always names the month and the year, "September 2026", instead of switching to whichever day you clicked last.</li><li>Turning the page has weight now. It runs on a spring, and a longer jump takes longer instead of flying past in a blur.</li><li>The day numbers are a point larger and the rows a little taller.</li><li>Rows in the Upcoming column carry their background all the time. Hovering only brings out the delete button.</li></ul>
-<h2>Có gì mới ở 1.9.5</h2>
-<h3>Đã thêm</h3>
-<ul><li>Tab Lịch giờ mở ra một trang tháng thật. Trang luôn bắt đầu ở tuần chứa mùng 1, và hai mũi tên lật trọn một tháng chứ không còn đi từng tuần.</li><li>Một đường viền mảnh khoanh lấy chính tháng ấy, khuyết ở hai góc đúng chỗ mấy ngày của tháng trước và tháng sau.</li><li>Thứ Bảy và Chủ nhật nằm trên một dải nền, liếc qua là thấy ngay cuối tuần.</li><li>Cột bên cạnh lịch bày bốn việc sắp tới thay vì ba.</li><li>Bấm vào một hàng trong cột ấy thì lịch chạy tới đúng ngày đó và chọn nó, cho biết nó rơi vào đâu.</li></ul>
+<ul><li>The band under Saturday and Sunday came apart while the calendar turned to another month. It was riding along with the days, so its rounded ends slid out of view the moment a page started moving and snapped back once the page settled. Saturday and Sunday are columns, and a column stays where it is when the page turns, so the band now stays put and only the days run through it.</li></ul>
+<h2>Có gì mới ở 1.9.6</h2>
 <h3>Đã sửa</h3>
-<ul><li>Lật trang bị giật ở khúc cuối. Lưới được dọn sớm hơn một khung hình so với lúc hình chạy xong, nên cả bảng nhảy nốt quãng đường còn lại.</li><li>Khung của tháng vừa rời đi còn nằm lại trên màn sau khi trang mới đã đứng.</li><li>Mở cả tháng ra là nút "Hôm nay" hiện ngay, dù trang đang bày đúng tháng này.</li><li>Thu cả tháng về một hàng thì dải ngày nằm ở tuần mà trang tình cờ bắt đầu, không phải tuần đang xem.</li></ul>
-<h3>Đã cải thiện</h3>
-<ul><li>Tiêu đề luôn gọi tên tháng và năm, "Tháng 9 năm 2026", thay vì đổi sang ngày vừa bấm.</li><li>Lật trang có sức nặng. Nó chạy bằng lò xo, và quãng dài thì đi lâu hơn chứ không vọt qua thành một vệt.</li><li>Con số ngày to hơn một điểm, các hàng cũng cao hơn một chút.</li><li>Hàng trong cột sắp tới lúc nào cũng có nền. Rê chuột chỉ để hiện thêm nút xoá.</li></ul>
+<ul><li>Dải nền dưới thứ Bảy và Chủ nhật bị vỡ mỗi lần lịch lật sang tháng khác. Nó đi theo các ngày, nên hai đầu bo tròn trôi khỏi khung ngay khi trang bắt đầu chạy rồi nảy về lúc trang đứng lại. Thứ Bảy và Chủ nhật là hai cột, mà cột thì đứng yên khi lật trang, nên giờ dải cũng đứng yên và chỉ có ngày chạy qua nó.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.5/Peek-1.9.5.zip" length="4588849" type="application/octet-stream" sparkle:edSignature="hZK751DT78XGM8liWEx/wG2dNn3xZmWHIJ+Cd8k+b+KCkQOVuXcOA1yk+Ad5l5slQZmFYYdJTo9nZ1zx2yD/BA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.6/Peek-1.9.6.zip" length="4588676" type="application/octet-stream" sparkle:edSignature="mCQT7iAFVsdl8SP8zRIGET9qNjU9VmZgUJIcfHKfYDQq4QXTYYCGWKo+NqFMFxM62RusL74Y7eAPOjOY81WyBg=="/>
         </item>
     </channel>
 </rss>
