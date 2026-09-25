@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.9.6</title>
-            <pubDate>Thu, 24 Sep 2026 21:00:58 +0700</pubDate>
-            <sparkle:version>39</sparkle:version>
-            <sparkle:shortVersionString>1.9.6</sparkle:shortVersionString>
+            <title>1.9.7</title>
+            <pubDate>Fri, 25 Sep 2026 09:06:19 +0700</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>1.9.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.9.6</h2>
+<h2>What's new in 1.9.7</h2>
 <h3>Fixed</h3>
-<ul><li>The band under Saturday and Sunday came apart while the calendar turned to another month. It was riding along with the days, so its rounded ends slid out of view the moment a page started moving and snapped back once the page settled. Saturday and Sunday are columns, and a column stays where it is when the page turns, so the band now stays put and only the days run through it.</li></ul>
-<h2>Có gì mới ở 1.9.6</h2>
+<ul><li>Opening the island stretched the resting sag along with the frame, so the panel grew through a black bell more than a hundred points deep, a shape belonging to neither the notch nor the sag. The sag now only lives inside the notch's own size range: it straightens out in the first stretch of the growth, and from there the black is a notch slab growing downward.</li><li>With the month open, the calendar sat closer to the left edge of the panel than the list beside it sat to the right edge, and the gap between the two columns was short as well. The month outline and the weekend band run down the middle of the column gaps, so they reach past the calendar's own edge on both sides. The grid is now inset by that much, and the three gaps come out at 16, 12 and 16 points.</li></ul>
+<h2>Có gì mới ở 1.9.7</h2>
 <h3>Đã sửa</h3>
-<ul><li>Dải nền dưới thứ Bảy và Chủ nhật bị vỡ mỗi lần lịch lật sang tháng khác. Nó đi theo các ngày, nên hai đầu bo tròn trôi khỏi khung ngay khi trang bắt đầu chạy rồi nảy về lúc trang đứng lại. Thứ Bảy và Chủ nhật là hai cột, mà cột thì đứng yên khi lật trang, nên giờ dải cũng đứng yên và chỉ có ngày chạy qua nó.</li></ul>
+<ul><li>Mở island ra thì cái võng lúc nghỉ bị kéo giãn theo khung, nên bảng phải đi qua một cái chuông đen sâu hơn trăm pt, thứ không phải dáng Notch cũng không phải dáng võng. Giờ cái võng chỉ sống trong khoảng cỡ của Notch: nó duỗi thẳng ngay ở đoạn đầu, và từ đó trở đi phần đen là một phiến Notch lớn xuống.</li><li>Khi mở cả tháng, cột lịch nằm sát mép trái của bảng hơn so với cột việc nằm sát mép phải, mà khe giữa hai cột cũng hụt theo. Khung tháng và dải cuối tuần chạy giữa khe cột nên chúng chìa ra ngoài mép lưới ở cả hai đầu. Nay lưới thụt vào đúng ngần ấy, ba khoảng thành 16, 12 và 16 pt.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.6/Peek-1.9.6.zip" length="4588676" type="application/octet-stream" sparkle:edSignature="mCQT7iAFVsdl8SP8zRIGET9qNjU9VmZgUJIcfHKfYDQq4QXTYYCGWKo+NqFMFxM62RusL74Y7eAPOjOY81WyBg=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.7/Peek-1.9.7.zip" length="4589089" type="application/octet-stream" sparkle:edSignature="r86lUXOHx5BeYz6tdVHChh2bIFk3ZhqRVzWAPdRUTtV4I9i1xZTbhwvYKRjBh5Pe08AotvVAMhR67jMmWoFKBA=="/>
         </item>
     </channel>
 </rss>
