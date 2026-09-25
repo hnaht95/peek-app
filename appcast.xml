@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.9.9</title>
-            <pubDate>Fri, 25 Sep 2026 18:24:15 +0700</pubDate>
-            <sparkle:version>42</sparkle:version>
-            <sparkle:shortVersionString>1.9.9</sparkle:shortVersionString>
+            <title>1.9.10</title>
+            <pubDate>Fri, 25 Sep 2026 18:29:30 +0700</pubDate>
+            <sparkle:version>43</sparkle:version>
+            <sparkle:shortVersionString>1.9.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,22 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.9.9</h2>
-<h3>Added</h3>
-<ul><li>Notes can carry a link and a time. The link has its own field under the note. Press the alarm button to set a time: the note narrows to make room for a time wheel you can drag, scroll, or click. Choose how early to hear about it: on time, 5, 15 or 30 minutes, 1 or 2 hours, or a day before.</li><li>A note with a time reminds you at that moment, not just once a day. The card shows the time and how long is left, like "14:30 · In 15 min".</li><li>Double-click a note or a birthday to read it first. Press Edit to change it.</li><li>"Remind at" in Settings is now picked on a time wheel: any hour, on the hour or at half past.</li><li>Settings &gt; Preview has a note card, so you can see what a note reminder looks like.</li><li>Links and times sync through iCloud along with your notes. A Mac still on an older Peek keeps the note text and simply doesn't show the link or time until it updates.</li></ul>
+<h2>What's new in 1.9.10</h2>
 <h3>Fixed</h3>
-<ul><li>A reminder that came due while the island was open counted as shown without ever appearing. It now waits until the island closes.</li><li>In the one-row calendar, turning the week could make the first or last day lose its background for a moment, and the selected day's background slid over the others. Each day now sits in a tile that stays put while the dates move, and turning the week clears the selection.</li><li>In the one-row calendar, the selected day's background was drawn twice, so it looked much brighter than in the month view.</li></ul>
-<h3>Improved</h3>
-<ul><li>In the month view, today has the same background as the selected day, so it stays marked when you pick another day. In the one-row calendar, today is shown in purple.</li><li>Every day in the one-row calendar sits on its own faint tile.</li><li>In the month view, the gaps between the two columns and between rows now match the gap between list rows.</li><li>Opening the calendar again after a while brings it back to today.</li><li>Note reminders use a calendar icon.</li><li>The pick-a-value buttons in Settings no longer have an arrow on the right.</li></ul>
-<h2>Có gì mới ở 1.9.9</h2>
-<h3>Đã thêm</h3>
-<ul><li>Ghi chú có thêm link và giờ hẹn. Link có ô riêng dưới ô chữ. Bấm nút đồng hồ để hẹn giờ: ô chữ co lại nhường chỗ cho bánh xe giờ, kéo, cuộn hay bấm số kề đều được. Chọn được báo trước bao lâu: đúng giờ, 5, 15, 30 phút, 1, 2 giờ hoặc 1 ngày.</li><li>Ghi chú có giờ hẹn thì báo đúng lúc ấy, không chỉ báo một lần trong ngày. Thẻ báo ghi giờ và còn bao lâu, kiểu "14:30 · Còn 15 phút".</li><li>Nhấn đúp vào ghi chú hay sinh nhật là mở ra xem trước, bấm Sửa mới sửa được.</li><li>Mục "Báo lúc" trong Cài đặt giờ chọn trên bánh xe giờ: giờ nào cũng được, phút 00 hoặc 30.</li><li>Mục Thử hiệu ứng trong Cài đặt có thêm thẻ ghi chú, xem trước được thẻ nhắc ghi chú trông ra sao.</li><li>Link và giờ hẹn đồng bộ qua iCloud cùng ghi chú. Mac còn chạy bản Peek cũ vẫn giữ nguyên chữ ghi chú, chỉ chưa hiện link và giờ cho tới khi cập nhật.</li></ul>
+<ul><li>On the Volume and Brightness sliders, the handle ran straight over the percentage at the right end once you dragged past about 85%. The number now fades out as the handle gets close and is gone before the handle reaches it.</li></ul>
+<h2>Có gì mới ở 1.9.10</h2>
 <h3>Đã sửa</h3>
-<ul><li>Lượt nhắc tới đúng lúc island đang mở bị tính là đã nhắc mà không hề hiện ra. Giờ nó chờ island đóng rồi mới báo.</li><li>Ở lịch một hàng, lúc lật tuần có khi ô đầu hoặc ô cuối mất nền trong chốc lát, còn nền của ngày đang chọn trượt đè lên các ô khác. Giờ mỗi ngày nằm trong một ô đứng yên, chỉ có ngày trượt qua, và lật tuần thì bỏ chọn.</li><li>Ở lịch một hàng, nền ngày đang chọn bị vẽ hai lần nên sáng hơn hẳn bên lịch tháng.</li></ul>
-<h3>Đã cải thiện</h3>
-<ul><li>Ở lịch tháng, hôm nay có nền như ngày đang chọn, nên chọn sang ngày khác vẫn thấy hôm nay. Ở lịch một hàng, hôm nay là chữ tím.</li><li>Mỗi ngày ở lịch một hàng nằm trên một ô nền nhạt.</li><li>Ở lịch tháng, khe giữa hai cột và giữa các hàng bằng đúng khe giữa các hàng việc.</li><li>Mở lại lịch sau một lúc thì lịch tự về hôm nay.</li><li>Thẻ nhắc ghi chú dùng hình tờ lịch.</li><li>Các nút chọn trong Cài đặt bỏ mũi tên bên phải.</li></ul>
+<ul><li>Ở thanh Âm lượng và Độ sáng, kéo quá tầm 85% là vạch tay nắm đè thẳng lên con số phần trăm ở đầu phải. Giờ con số mờ dần khi tay nắm tới gần, và biến hẳn trước khi tay nắm chạm tới.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.9/Peek-1.9.9.zip" length="4850741" type="application/octet-stream" sparkle:edSignature="WshsQwDSHyGj6NEbvB4qDnAizYoQ3gwwr7zpCey592SvQk7y093luvWUnYd+FklzFT5ZCcaPjeFs0mhxfDDXCg=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.10/Peek-1.9.10.zip" length="4852728" type="application/octet-stream" sparkle:edSignature="UdCrS5NrFWUmi4PWRtnqpyC1+mVqmMB/8a2uxzhJdN1UHgeb0NTf4UDKc+ASq09kANZptWD1NTXyr59HtHr6Bg=="/>
         </item>
     </channel>
 </rss>
