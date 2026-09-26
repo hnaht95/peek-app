@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.9.14</title>
-            <pubDate>Sat, 26 Sep 2026 17:33:51 +0700</pubDate>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>1.9.14</sparkle:shortVersionString>
+            <title>1.9.15</title>
+            <pubDate>Sat, 26 Sep 2026 18:06:19 +0700</pubDate>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>1.9.15</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,18 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.9.14</h2>
-<h3>Added</h3>
-<ul><li>On displays without a notch, the song title and artist now stay in the middle of the island while music plays, without hovering. The line fades down after 5 seconds so it doesn't pull your eye, and brightens again when you hover or the song changes.</li></ul>
+<h2>What's new in 1.9.15</h2>
 <h3>Improved</h3>
-<ul><li>The song title grows and slides smoothly with the rest of the island when you hover, instead of jumping.</li><li>On displays without a notch, the album cover sits evenly inside the island, and the waveform keeps a matching gap from the right edge.</li><li>The play and pause button that appears on hover is larger and easier to see.</li></ul>
-<h2>Có gì mới ở 1.9.14</h2>
-<h3>Đã thêm</h3>
-<ul><li>Trên màn không có khoét, tên bài và ca sĩ giờ hiện thường trực ở giữa island khi đang phát nhạc, không cần rê chuột. Dòng chữ mờ dần sau 5 giây cho khỏi giành mắt, rê chuột vào hoặc đổi bài thì sáng lại.</li></ul>
+<ul><li>Removing a note or a birthday from the calendar list now works like the Clipboard: hold the ✕ and the row turns red with "Hold to remove", so you can see what is about to go.</li><li>The "Hold to remove" label is a little smaller and lines up with the ✕ button.</li></ul>
+<h2>Có gì mới ở 1.9.15</h2>
 <h3>Đã cải thiện</h3>
-<ul><li>Khi rê chuột, tên bài to lên và trượt mượt cùng cả island, không còn nhảy.</li><li>Trên màn không có khoét, ảnh bìa nằm cân đối trong island, sóng nhạc cũng cách mép phải một khoảng tương ứng.</li><li>Nút phát và dừng hiện ra khi rê chuột to hơn, dễ nhìn hơn.</li></ul>
+<ul><li>Xoá ghi chú hay sinh nhật trong danh sách lịch giờ giống Bảng tạm: giữ nút ✕ thì hàng chuyển đỏ và hiện "Giữ để xoá", nhìn là biết sắp xoá gì.</li><li>Chữ báo giữ để xoá trên nền đỏ nhỏ lại một chút và thẳng hàng với nút ✕.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.14/Peek-1.9.14.zip" length="4992198" type="application/octet-stream" sparkle:edSignature="CYrthMzAx/4aXHAe1a7QM1RUA76jr3yGUNCe0Oix2AkyfJfDH5LhhFprhP5NOzEoOolBkq1CH2k2Z1FlY1azAw=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.15/Peek-1.9.15.zip" length="4997547" type="application/octet-stream" sparkle:edSignature="K8AoCJqes7V4GW6TXLrwqD8A+ae/tmJR9OUL0wj0C3yO2/9hE7D7pY8iSU9GnkxZuMJ5HgjyMu5d8wXhOr8ECA=="/>
         </item>
     </channel>
 </rss>
