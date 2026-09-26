@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.9.13</title>
-            <pubDate>Sat, 26 Sep 2026 15:45:09 +0700</pubDate>
-            <sparkle:version>46</sparkle:version>
-            <sparkle:shortVersionString>1.9.13</sparkle:shortVersionString>
+            <title>1.9.14</title>
+            <pubDate>Sat, 26 Sep 2026 17:33:51 +0700</pubDate>
+            <sparkle:version>47</sparkle:version>
+            <sparkle:shortVersionString>1.9.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,18 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.9.13</h2>
+<h2>What's new in 1.9.14</h2>
 <h3>Added</h3>
-<ul><li>The calendar has a thin handle along its bottom edge. Drag it down to open the whole month, drag it up to go back to one week, or just click it. Keep holding and drag up and down to switch back and forth.</li><li>When you shrink the calendar with the handle, the island stays open for a moment so you can move the pointer back into it.</li></ul>
-<h2>Có gì mới ở 1.9.13</h2>
+<ul><li>On displays without a notch, the song title and artist now stay in the middle of the island while music plays, without hovering. The line fades down after 5 seconds so it doesn't pull your eye, and brightens again when you hover or the song changes.</li></ul>
+<h3>Improved</h3>
+<ul><li>The song title grows and slides smoothly with the rest of the island when you hover, instead of jumping.</li><li>On displays without a notch, the album cover sits evenly inside the island, and the waveform keeps a matching gap from the right edge.</li><li>The play and pause button that appears on hover is larger and easier to see.</li></ul>
+<h2>Có gì mới ở 1.9.14</h2>
 <h3>Đã thêm</h3>
-<ul><li>Lịch có một thanh mảnh ở mép dưới. Kéo xuống để mở cả tháng, kéo lên để thu về một tuần, hoặc bấm vào là đổi. Giữ tay kéo lên kéo xuống thì đổi qua lại liên tục.</li><li>Thu lịch lại bằng thanh này thì island vẫn mở thêm một lúc, để bạn kịp đưa chuột quay vào.</li></ul>
+<ul><li>Trên màn không có khoét, tên bài và ca sĩ giờ hiện thường trực ở giữa island khi đang phát nhạc, không cần rê chuột. Dòng chữ mờ dần sau 5 giây cho khỏi giành mắt, rê chuột vào hoặc đổi bài thì sáng lại.</li></ul>
+<h3>Đã cải thiện</h3>
+<ul><li>Khi rê chuột, tên bài to lên và trượt mượt cùng cả island, không còn nhảy.</li><li>Trên màn không có khoét, ảnh bìa nằm cân đối trong island, sóng nhạc cũng cách mép phải một khoảng tương ứng.</li><li>Nút phát và dừng hiện ra khi rê chuột to hơn, dễ nhìn hơn.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.13/Peek-1.9.13.zip" length="4982783" type="application/octet-stream" sparkle:edSignature="QyULOz5OhPmf/NQwsRMKx+O961d4exE0v5w+iREoYItPT0sgP6MtJDrNbUsEuQCtu3Ar7YhsRUdioqaqvYkqAw=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.14/Peek-1.9.14.zip" length="4992198" type="application/octet-stream" sparkle:edSignature="CYrthMzAx/4aXHAe1a7QM1RUA76jr3yGUNCe0Oix2AkyfJfDH5LhhFprhP5NOzEoOolBkq1CH2k2Z1FlY1azAw=="/>
         </item>
     </channel>
 </rss>
