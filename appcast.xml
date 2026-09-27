@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.9.16</title>
-            <pubDate>Sun, 27 Sep 2026 09:10:09 +0700</pubDate>
-            <sparkle:version>49</sparkle:version>
-            <sparkle:shortVersionString>1.9.16</sparkle:shortVersionString>
+            <title>1.9.17</title>
+            <pubDate>Sun, 27 Sep 2026 09:21:00 +0700</pubDate>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>1.9.17</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,18 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.9.16</h2>
-<h3>Added</h3>
-<ul><li>Hover over the island while a timer is running and the timer icon turns into a pause button, just like the play and pause button for music. Click it to pause, click again to resume.</li><li>Your calendar reminder times ("Remind at" and "Remind from") now sync through iCloud, so every Mac reminds you at the same time. Turning calendar reminders on or off still stays with each Mac, so you can keep a second Mac quiet.</li></ul>
-<h3>Improved</h3>
-<ul><li>On displays without a notch, the island is no wider while a timer runs than while music plays.</li></ul>
-<h2>Có gì mới ở 1.9.16</h2>
-<h3>Đã thêm</h3>
-<ul><li>Rê chuột lên island lúc đang hẹn giờ thì hình đồng hồ đổi thành nút tạm dừng, giống nút phát và dừng của nhạc. Bấm để tạm dừng, bấm lần nữa để chạy tiếp.</li><li>Giờ nhắc lịch ("Báo lúc" và "Nhắc từ") giờ đồng bộ qua iCloud, máy Mac nào cũng nhắc cùng một giờ. Công tắc bật tắt nhắc lịch vẫn để riêng từng máy, muốn máy phụ im lặng thì tắt ở máy đó.</li></ul>
-<h3>Đã cải thiện</h3>
-<ul><li>Trên màn không có khoét, island lúc hẹn giờ không còn rộng hơn lúc phát nhạc.</li></ul>
+<h2>What's new in 1.9.17</h2>
+<h3>Fixed</h3>
+<ul><li>While a timer is running, the tick marks on the timer ruler now move together as one strip, instead of jumping out of step with each other.</li></ul>
+<h2>Có gì mới ở 1.9.17</h2>
+<h3>Đã sửa</h3>
+<ul><li>Lúc hẹn giờ đang chạy, các vạch trên thước giờ trôi cùng nhau thành một dải, không còn nhảy lệch nhịp.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.16/Peek-1.9.16.zip" length="5027057" type="application/octet-stream" sparkle:edSignature="86LPEThljNzoWYqIdBkqvT54vtEIjLotkk/xD0iJeodqfDUrNTzcsw+i7GdIuc5wInpWWkDO0ULcECsQ5BMlCw=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.17/Peek-1.9.17.zip" length="5027352" type="application/octet-stream" sparkle:edSignature="qrzSQXLO1jSP2fst4ynNP/frGcKj5cPVlKcObnYUHMwmPVSh56wt11VUDHlC1GJK7LRXysPsIdKx0XBBST1RBw=="/>
         </item>
     </channel>
 </rss>
