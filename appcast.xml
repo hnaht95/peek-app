@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.1</title>
-            <pubDate>Sun, 27 Sep 2026 13:27:03 +0700</pubDate>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>1.10.1</sparkle:shortVersionString>
+            <title>1.10.2</title>
+            <pubDate>Sun, 27 Sep 2026 13:49:53 +0700</pubDate>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>1.10.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,18 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.1</h2>
-<h3>Improved</h3>
-<ul><li>A single click on a note or a birthday in the Calendar tab now opens it. No more double-clicking.</li><li>The text on the AirDrop and Clear buttons in the Files tab is a little smaller.</li></ul>
+<h2>What's new in 1.10.2</h2>
 <h3>Changed</h3>
-<ul><li>Clear in the Files tab now needs a one-second hold before it empties the list, since that can't be undone. While you hold, the button fills red and says "Hold to remove".</li></ul>
-<h2>Có gì mới ở 1.10.1</h2>
-<h3>Đã cải thiện</h3>
-<ul><li>Bấm một lần vào ghi chú hay sinh nhật ở tab Lịch là mở ra, không phải nhấn đúp nữa.</li><li>Chữ trên nút AirDrop và Xoá hết ở tab Danh sách tệp nhỏ lại một chút.</li></ul>
+<ul><li>The Files tab header now uses two icons, like the Clipboard tab: Clear on the left, AirDrop on the right. Clear needs a two-second hold, with a red ring filling around it, and says "Hold to delete" when you point at it.</li></ul>
+<h2>Có gì mới ở 1.10.2</h2>
 <h3>Đã đổi</h3>
-<ul><li>Nút Xoá hết ở tab Danh sách tệp giờ phải giữ một giây mới xoá, vì xoá rồi không lấy lại được. Trong lúc giữ, nút đỏ dần và hiện chữ "Giữ để xoá".</li></ul>
+<ul><li>Hàng tiêu đề tab Danh sách tệp giờ dùng hai biểu tượng như tab Bảng tạm: nút xoá hết bên trái, AirDrop bên phải. Nút xoá hết phải giữ hai giây, có vòng đỏ chạy quanh, rê chuột vào thì hiện chữ "Giữ để xoá".</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.1/Peek-1.10.1.zip" length="5128518" type="application/octet-stream" sparkle:edSignature="sx7Det8eLiOHQNgo/f5aSz1SnKENeZqixBld2P30qStf9k9EEuXQN/LIOIfRKEghgJHfMwm+X02wMKPXZ7tIAg=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.2/Peek-1.10.2.zip" length="5104622" type="application/octet-stream" sparkle:edSignature="UdMgQ3P2ty7K7G0VWwYXq9cnpjvzx5BkqHB3ia9RYmbJnCKFihTZ6InVQKCv4p15FyXhULDARKFXAYU5MrvTAA=="/>
         </item>
     </channel>
 </rss>
