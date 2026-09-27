@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.9.22</title>
-            <pubDate>Sun, 27 Sep 2026 11:28:58 +0700</pubDate>
-            <sparkle:version>55</sparkle:version>
-            <sparkle:shortVersionString>1.9.22</sparkle:shortVersionString>
+            <title>1.10.0</title>
+            <pubDate>Sun, 27 Sep 2026 13:11:24 +0700</pubDate>
+            <sparkle:version>56</sparkle:version>
+            <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,26 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.9.22</h2>
+<h2>What's new in 1.10.0</h2>
+<h3>Added</h3>
+<ul><li>A day can now hold several notes, each with its own text, link and reminder time. Double-click a day to add a note, even if it already has one.</li></ul>
 <h3>Fixed</h3>
-<ul><li>On the volume, brightness and water reminder sliders, the number now moves inside the bar and back out at the same point, whether you drag right or left.</li></ul>
-<h2>Có gì mới ở 1.9.22</h2>
+<ul><li>Typing in a note's link field no longer freezes or crashes Peek. The bug came in with 1.9.19 and made Peek quit on macOS 27.</li><li>Two Macs adding notes to the same day now keep both, instead of one replacing the other.</li></ul>
+<h3>Improved</h3>
+<ul><li>Within a day, notes with a time come after the all-day items, in time order, both for the selected day and in the upcoming list.</li><li>When viewing a note, the link box is always there, saying "No link" when it has none.</li><li>In the one-week view, a busy day shows up to four rows and scrolls for the rest.</li></ul>
+<h3>Changed</h3>
+<ul><li>Macs still on an older version keep the notes they already had, but don't see notes added from this version on. Update Peek on all your Macs to see everything.</li></ul>
+<h2>Có gì mới ở 1.10.0</h2>
+<h3>Đã thêm</h3>
+<ul><li>Một ngày giờ chứa được nhiều ghi chú, mỗi cái có chữ, link và giờ nhắc riêng. Nhấn đúp vào ngày để thêm ghi chú, kể cả khi ngày đó đã có.</li></ul>
 <h3>Đã sửa</h3>
-<ul><li>Ở thanh âm lượng, độ sáng và nhắc uống nước, con số giờ chuyển vào trong và trả ra ngoài ở cùng một mốc, dù kéo sang phải hay kéo sang trái.</li></ul>
+<ul><li>Gõ vào ô link của ghi chú không còn làm Peek đơ hay sập. Lỗi có từ bản 1.9.19, trên macOS 27 thì Peek thoát hẳn.</li><li>Hai máy cùng thêm ghi chú vào một ngày thì giữ cả hai, không còn cái này đè mất cái kia.</li></ul>
+<h3>Đã cải thiện</h3>
+<ul><li>Trong một ngày, ghi chú có giờ xếp sau các việc cả ngày, theo thứ tự giờ, cả ở ngày đang chọn lẫn danh sách sắp tới.</li><li>Lúc xem ghi chú, ô link luôn hiện, không có link thì ghi "Chưa có link".</li><li>Ở lịch một tuần, ngày nhiều việc hiện tối đa bốn hàng, còn lại cuộn xuống.</li></ul>
+<h3>Đã đổi</h3>
+<ul><li>Máy còn chạy bản cũ vẫn giữ các ghi chú đã có, nhưng không thấy ghi chú thêm từ bản này trở đi. Hãy cập nhật Peek trên mọi máy để thấy đủ.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.22/Peek-1.9.22.zip" length="5043182" type="application/octet-stream" sparkle:edSignature="m+2bEDrWv8CJaQdKjm1yvWPibHsQ42Pl8Xurtpq+isKEyXg4/bOTpQfrXi6JkEA3ZZq5kYcH299RVWRH145oDQ=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.0/Peek-1.10.0.zip" length="5114152" type="application/octet-stream" sparkle:edSignature="6faOi+0WPeKZT8f33JbQW7w5KSpF/Djny2lNsSY2cbzFkdETN434PR0N6PpAltk2TlVrPUhZ16MX/GbxFrgcDQ=="/>
         </item>
     </channel>
 </rss>
