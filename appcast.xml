@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.9.21</title>
-            <pubDate>Sun, 27 Sep 2026 11:09:34 +0700</pubDate>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>1.9.21</sparkle:shortVersionString>
+            <title>1.9.22</title>
+            <pubDate>Sun, 27 Sep 2026 11:28:58 +0700</pubDate>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>1.9.22</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.9.21</h2>
-<h3>Improved</h3>
-<ul><li>The volume, brightness and water reminder sliders no longer hide their value near the right end. As the bar gets close, the number moves inside the bar, just left of the handle, with a smooth fade between the two spots.</li></ul>
-<h2>Có gì mới ở 1.9.21</h2>
-<h3>Đã cải thiện</h3>
-<ul><li>Thanh âm lượng, độ sáng và thanh nhắc uống nước không còn giấu con số khi kéo gần tới mép phải. Phần trắng tới gần thì con số chuyển vào bên trong, nằm ngay bên trái vạch kéo, mờ chéo mượt giữa hai chỗ.</li></ul>
+<h2>What's new in 1.9.22</h2>
+<h3>Fixed</h3>
+<ul><li>On the volume, brightness and water reminder sliders, the number now moves inside the bar and back out at the same point, whether you drag right or left.</li></ul>
+<h2>Có gì mới ở 1.9.22</h2>
+<h3>Đã sửa</h3>
+<ul><li>Ở thanh âm lượng, độ sáng và nhắc uống nước, con số giờ chuyển vào trong và trả ra ngoài ở cùng một mốc, dù kéo sang phải hay kéo sang trái.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.21/Peek-1.9.21.zip" length="5048077" type="application/octet-stream" sparkle:edSignature="x2pNQ2E+5CvDzdLcxNuUnnHacQjRkzsHWq6nA0qcl2cCznBhkMtdWk73BIwnEg+sWhRnFSmCaLhSnC2cu51JCA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.22/Peek-1.9.22.zip" length="5043182" type="application/octet-stream" sparkle:edSignature="m+2bEDrWv8CJaQdKjm1yvWPibHsQ42Pl8Xurtpq+isKEyXg4/bOTpQfrXi6JkEA3ZZq5kYcH299RVWRH145oDQ=="/>
         </item>
     </channel>
 </rss>
