@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.9.17</title>
-            <pubDate>Sun, 27 Sep 2026 09:21:00 +0700</pubDate>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>1.9.17</sparkle:shortVersionString>
+            <title>1.9.18</title>
+            <pubDate>Sun, 27 Sep 2026 09:36:30 +0700</pubDate>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>1.9.18</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.9.17</h2>
+<h2>What's new in 1.9.18</h2>
 <h3>Fixed</h3>
-<ul><li>While a timer is running, the tick marks on the timer ruler now move together as one strip, instead of jumping out of step with each other.</li></ul>
-<h2>Có gì mới ở 1.9.17</h2>
+<ul><li>In the month view, the outline around the current month no longer turns brighter where it crosses the Saturday and Sunday columns.</li></ul>
+<h2>Có gì mới ở 1.9.18</h2>
 <h3>Đã sửa</h3>
-<ul><li>Lúc hẹn giờ đang chạy, các vạch trên thước giờ trôi cùng nhau thành một dải, không còn nhảy lệch nhịp.</li></ul>
+<ul><li>Ở lịch cả tháng, đường viền quanh tháng không còn sáng lên ở đoạn đi qua cột thứ Bảy và Chủ nhật.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.17/Peek-1.9.17.zip" length="5027352" type="application/octet-stream" sparkle:edSignature="qrzSQXLO1jSP2fst4ynNP/frGcKj5cPVlKcObnYUHMwmPVSh56wt11VUDHlC1GJK7LRXysPsIdKx0XBBST1RBw=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.9.18/Peek-1.9.18.zip" length="5027426" type="application/octet-stream" sparkle:edSignature="68fDLidwJNQtDVc1RgyVB6tJrk0mhJ/7o+ijMQxtG/cYS+plw0lAWpiyDlREC+Drkgl2NnVmJ2C1vjvSHAPOAw=="/>
         </item>
     </channel>
 </rss>
