@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.5</title>
-            <pubDate>Sun, 27 Sep 2026 20:12:57 +0700</pubDate>
-            <sparkle:version>61</sparkle:version>
-            <sparkle:shortVersionString>1.10.5</sparkle:shortVersionString>
+            <title>1.10.6</title>
+            <pubDate>Mon, 28 Sep 2026 19:02:04 +0700</pubDate>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>1.10.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,22 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.5</h2>
+<h2>What's new in 1.10.6</h2>
+<h3>Added</h3>
+<ul><li>A new clock button in the Calendar tab's header lists your past events: notes from earlier days, newest first. Click one to open it, just like in Upcoming.</li></ul>
 <h3>Improved</h3>
-<ul><li>In the Clipboard tab's history list, what you just copied now stays at the top, and saved items sit at the bottom. They already have their own row up top, so they no longer push new copies down.</li></ul>
-<h2>Có gì mới ở 1.10.5</h2>
+<ul><li>About a second after you open the Calendar tab, the thin handle along its bottom edge blinks twice, so you know you can click or drag it to see the whole month.</li><li>In the month view, birthdays in the Upcoming column now start with "Bday", so they stand apart from notes at a glance.</li><li>Clicking Edit on a birthday puts the cursor at the end of the name, ready to type.</li></ul>
+<h3>Changed</h3>
+<ul><li>The button for opening the whole month has left the Calendar tab's header for now. The handle along the bottom edge does the same job: click it, or drag it down.</li></ul>
+<h2>Có gì mới ở 1.10.6</h2>
+<h3>Đã thêm</h3>
+<ul><li>Nút đồng hồ mới trên tiêu đề tab Lịch mở danh sách sự kiện đã qua: ghi chú của những ngày trước, mới nhất ở trên. Bấm vào một mục là mở ra, y như ở màn Sắp tới.</li></ul>
 <h3>Đã cải thiện</h3>
-<ul><li>Trong danh sách lịch sử của tab Bảng tạm, thứ vừa copy giờ luôn nằm trên đầu, còn các mục đã cất xuống cuối. Chúng đã có hàng riêng ở trên cùng, nên không còn đẩy mục vừa copy xuống dưới nữa.</li></ul>
+<ul><li>Mở tab Lịch chừng một giây thì thanh mảnh ở mép dưới nháy hai lần, cho biết có thể bấm hoặc kéo nó để xem cả tháng.</li><li>Ở lịch cả tháng, sinh nhật trong cột sắp tới giờ ghi "Sn" trước tên, nhìn là phân biệt được với ghi chú.</li><li>Bấm Sửa ở một sinh nhật thì con trỏ nằm sẵn ở cuối tên, gõ được ngay.</li></ul>
+<h3>Đã đổi</h3>
+<ul><li>Nút mở cả tháng tạm rời khỏi tiêu đề tab Lịch. Thanh mảnh ở mép dưới làm đúng việc ấy: bấm vào, hoặc kéo xuống.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.5/Peek-1.10.5.zip" length="5103708" type="application/octet-stream" sparkle:edSignature="C3pFCFwi+3i+JEQgIVg8aS1+lTlSMSOkoyrAKHTmYT8VquFtY2GYkg4RqdYfgCa4G1k2dXEGDGhedSg2OY4fCg=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.6/Peek-1.10.6.zip" length="5142531" type="application/octet-stream" sparkle:edSignature="neP8MGjEOZgoZpMDoAH8jCF5dioKf9s/fluEfAv6k66x1XlOa/xy3AL2y59fX+/Ewzv+K24C+2+eSD1KtdIzAA=="/>
         </item>
     </channel>
 </rss>
