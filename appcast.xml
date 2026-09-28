@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.7</title>
-            <pubDate>Tue, 29 Sep 2026 00:30:55 +0700</pubDate>
-            <sparkle:version>63</sparkle:version>
-            <sparkle:shortVersionString>1.10.7</sparkle:shortVersionString>
+            <title>1.10.8</title>
+            <pubDate>Tue, 29 Sep 2026 01:02:45 +0700</pubDate>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>1.10.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,18 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.7</h2>
-<h3>Added</h3>
-<ul><li>Turn Do Not Disturb on or off right from Peek: in the System tab, click the moon, just like in Control Center. The first time, Peek offers a small shortcut to add to the Shortcuts app. It takes one click and asks for no permissions.</li><li>In the Notch style, while Do Not Disturb or any other Focus is on, a purple moon sits on the left of the island, where the album art goes. The waveform stays on the right while music plays.</li><li>While a timer is running, the moon takes the place of the timer icon, so you can see both at a glance.</li><li>Double-click the empty space in the Calendar tab's header to open the whole month, and double-click again to go back to one week.</li></ul>
+<h2>What's new in 1.10.8</h2>
 <h3>Fixed</h3>
-<ul><li>In the one-week calendar, a week spanning two months could show the wrong month: September 28 to October 4 said October while today was still in September. It now shows the month of the day you're looking at, and opening the whole month lands on that same month.</li></ul>
-<h2>Có gì mới ở 1.10.7</h2>
-<h3>Đã thêm</h3>
-<ul><li>Bật tắt Không làm phiền ngay trong Peek: ở tab Hệ thống, bấm vào mặt trăng, y như trong Trung tâm điều khiển. Lần đầu Peek mời thêm một Phím tắt nhỏ vào app Phím tắt, chỉ một cú bấm, không phải cấp quyền gì.</li><li>Ở dáng Notch, khi Không làm phiền hay một chế độ tập trung khác đang bật, island hiện mặt trăng tím ở bên trái, chỗ ảnh bìa. Đang phát nhạc thì sóng nhạc vẫn ở bên phải.</li><li>Đang hẹn giờ thì mặt trăng thay chỗ hình đồng hồ, liếc qua là biết cả hai.</li><li>Nhấn đúp vào khoảng trống trên tiêu đề tab Lịch để mở cả tháng, nhấn đúp lần nữa để thu về một tuần.</li></ul>
+<ul><li>On macOS 26 and later, Peek now knows when Do Not Disturb is on. The moon button in the System tab turns white with a purple moon, and the moon shows on the island. Before, the moon still switched Do Not Disturb on and off but never showed that it was on.</li><li>The first time you click the moon on these systems, macOS asks once to let Peek see your Focus status. On macOS 15 and earlier nothing changes, and Peek doesn't ask.</li></ul>
+<h2>Có gì mới ở 1.10.8</h2>
 <h3>Đã sửa</h3>
-<ul><li>Ở lịch một tuần, tuần vắt qua hai tháng có thể ghi sai tháng: tuần 28/9 tới 4/10 ghi tháng 10 trong khi hôm nay vẫn còn tháng 9. Giờ nhãn ghi tháng của ngày đang xem, và mở cả tháng ra đúng tháng ấy.</li></ul>
+<ul><li>Trên macOS 26 trở lên, Peek giờ biết lúc Không làm phiền đang bật. Nút mặt trăng ở tab Hệ thống chuyển nền trắng với mặt trăng tím, và island hiện mặt trăng. Trước đây bấm mặt trăng vẫn bật tắt được, nhưng không bao giờ báo là đang bật.</li><li>Trên các bản macOS này, lần đầu bấm mặt trăng, macOS hỏi một lần để cho Peek xem trạng thái tập trung. Từ macOS 15 trở xuống thì không có gì thay đổi, Peek không hỏi.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.7/Peek-1.10.7.zip" length="5181133" type="application/octet-stream" sparkle:edSignature="clJvmTj9v6J2cKFk2ukLRG8xh70vpYUW/muofF48aDCtYAl9MA9bYbq9uM3CYoyV2BwyPPYtCAAOzCgdUiiZCw=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.8/Peek-1.10.8.zip" length="5184795" type="application/octet-stream" sparkle:edSignature="ZfhheMijzOnVdyrxdCm0YzPbMLFQa15tlzrUpBHumuK0Bx9bmOauQ0wWyBG4A1vX/XuL5KhEVC9FGcP8fmbSCQ=="/>
         </item>
     </channel>
 </rss>
