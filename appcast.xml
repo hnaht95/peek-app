@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.9</title>
-            <pubDate>Tue, 29 Sep 2026 17:39:10 +0700</pubDate>
-            <sparkle:version>65</sparkle:version>
-            <sparkle:shortVersionString>1.10.9</sparkle:shortVersionString>
+            <title>1.10.10</title>
+            <pubDate>Wed, 30 Sep 2026 17:51:51 +0700</pubDate>
+            <sparkle:version>66</sparkle:version>
+            <sparkle:shortVersionString>1.10.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.9</h2>
-<h3>Changed</h3>
-<ul><li>The button for opening the whole month is back in the Calendar tab's header, next to the clock button. Double-clicking the empty space in the header no longer opens the month.</li></ul>
-<h2>Có gì mới ở 1.10.9</h2>
-<h3>Đã đổi</h3>
-<ul><li>Nút mở cả tháng đã trở lại trên tiêu đề tab Lịch, cạnh nút đồng hồ. Nhấn đúp vào khoảng trống trên tiêu đề không còn mở cả tháng nữa.</li></ul>
+<h2>What's new in 1.10.10</h2>
+<h3>Improved</h3>
+<ul><li>A short water reminder now gets a card that fits it, without a gap before the close button. Longer reminders still wrap onto two lines as before.</li><li>When you open the Calendar tab, the handle along the bottom now glows softly once instead of blinking twice.</li></ul>
+<h2>Có gì mới ở 1.10.10</h2>
+<h3>Đã cải thiện</h3>
+<ul><li>Câu nhắc uống nước ngắn giờ có thẻ vừa khít, không còn khoảng trống trước nút tắt. Câu dài hơn vẫn xuống hai dòng như trước.</li><li>Mở tab Lịch thì thanh ngang ở mép dưới sáng dịu lên một lần, thay vì nháy nhanh hai lần.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.9/Peek-1.10.9.zip" length="5184466" type="application/octet-stream" sparkle:edSignature="VlhFbo4d19q7zm87yASLT297CBpKPyu89jN07NjoiUa5wa2Ti5qdusa0yUeEHvF+hTXdPwEl/33tSg6H3bp1Cw=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.10/Peek-1.10.10.zip" length="5185199" type="application/octet-stream" sparkle:edSignature="C67ebZFGDVxNJNOOxPsZZEqXRRgrClzdDuhTy1JJShnFpKbopVTIlHLY23ecPstUryxMT3Uz+2VGUXbL+9vnCw=="/>
         </item>
     </channel>
 </rss>
