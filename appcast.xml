@@ -4,7 +4,7 @@
         <title>Peek</title>
         <item>
             <title>1.10.12</title>
-            <pubDate>Thu, 01 Oct 2026 17:30:50 +0700</pubDate>
+            <pubDate>Thu, 01 Oct 2026 17:41:14 +0700</pubDate>
             <sparkle:version>68</sparkle:version>
             <sparkle:shortVersionString>1.10.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
@@ -49,7 +49,7 @@ code {
 <h3>Đã cải thiện</h3>
 <ul><li>Trong danh sách loa, loa vừa chọn trượt ra giữa, và mở danh sách ra là loa đang phát đã nằm giữa. Loa ở hai đầu thì dừng sát mép.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.12/Peek-1.10.12.zip" length="5224901" type="application/octet-stream" sparkle:edSignature="gn57+3tZZRiRRIh+T9464UxqQ0SL7VZzErSjKg2IKkTEOFPKm3+0e+xm58xWeDQR7PHNIkrqgJRmfwkv4iEkAw=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.12/Peek-1.10.12.zip" length="5226757" type="application/octet-stream" sparkle:edSignature="U4mmzgcHcKuRosxSCBYH0HmvsvHCzynalHW9jr0pHifLDzRYMgFykkFs0577SzNLj37SSBel7OgyKdYd2fdPDQ=="/>
         </item>
     </channel>
 </rss>
