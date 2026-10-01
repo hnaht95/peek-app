@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.11</title>
-            <pubDate>Thu, 01 Oct 2026 08:12:17 +0700</pubDate>
-            <sparkle:version>67</sparkle:version>
-            <sparkle:shortVersionString>1.10.11</sparkle:shortVersionString>
+            <title>1.10.12</title>
+            <pubDate>Thu, 01 Oct 2026 17:30:50 +0700</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>1.10.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,22 +34,22 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.11</h2>
-<h3>Changed</h3>
-<ul><li>Choosing a speaker now happens in the Music tab. The last playback button, now an AirPlay icon, opens the volume slider with your speakers listed right below it. Click a speaker to switch to it.</li><li>The speaker tool is no longer in the System tab.</li></ul>
+<h2>What's new in 1.10.12</h2>
 <h3>Added</h3>
-<ul><li>A Settings button at the end of the speaker list opens Sound settings.</li></ul>
+<ul><li>Smooth scrolling for mice with a scroll wheel. Lists in the island (Clipboard history, Calendar) and the Settings window now glide instead of jumping notch by notch. In the island lists, each notch moves exactly one row.</li></ul>
+<h3>Fixed</h3>
+<ul><li>Water reminders now arrive right on time. Before, they could show up to half a minute late.</li><li>A water reminder that comes due while the island is open now shows just below it instead of being skipped.</li><li>Changing how often to remind now starts counting from that moment, so the first reminder no longer comes too early.</li></ul>
 <h3>Improved</h3>
-<ul><li>Speakers and the Settings button light up when you hover over them.</li></ul>
-<h2>Có gì mới ở 1.10.11</h2>
-<h3>Đã đổi</h3>
-<ul><li>Chọn loa giờ nằm ở tab Nhạc. Nút cuối hàng nút phát, nay mang hình AirPlay, mở thanh âm lượng kèm danh sách loa ngay bên dưới. Bấm vào loa nào là phát qua loa đó.</li><li>Tab Máy không còn công cụ chọn loa.</li></ul>
+<ul><li>In the speaker list, the speaker you pick slides to the middle, and the list opens with the current speaker in the middle. Speakers at either end stay at the edge.</li></ul>
+<h2>Có gì mới ở 1.10.12</h2>
 <h3>Đã thêm</h3>
-<ul><li>Nút Cài đặt ở cuối danh sách loa mở thẳng Cài đặt Âm thanh.</li></ul>
+<ul><li>Cuộn mượt cho chuột có bánh xe. Các danh sách trong island (lịch sử Bảng tạm, tab Lịch) và cửa sổ Cài đặt giờ trượt êm thay vì nhảy từng nấc. Ở danh sách trong island, mỗi nấc đi đúng một hàng.</li></ul>
+<h3>Đã sửa</h3>
+<ul><li>Nhắc uống nước giờ báo đúng mốc. Trước đây có thể trễ tới nửa phút.</li><li>Tới giờ nhắc mà island đang mở thì thẻ nhắc hiện ngay bên dưới, không còn bị bỏ qua.</li><li>Đổi khoảng nhắc thì đếm lại từ lúc đổi, nên lần nhắc đầu không còn tới sớm.</li></ul>
 <h3>Đã cải thiện</h3>
-<ul><li>Các loa và nút Cài đặt sáng lên khi rê chuột vào.</li></ul>
+<ul><li>Trong danh sách loa, loa vừa chọn trượt ra giữa, và mở danh sách ra là loa đang phát đã nằm giữa. Loa ở hai đầu thì dừng sát mép.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.11/Peek-1.10.11.zip" length="5198715" type="application/octet-stream" sparkle:edSignature="Ofk76xNJwVOcJuR4y0x9NLqtxkDCk3aobZjidGuXWnfRkSeiTNPu1CaouctgHU5jb2AFTkg7/74oAqKY8vyDAQ=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.12/Peek-1.10.12.zip" length="5224901" type="application/octet-stream" sparkle:edSignature="gn57+3tZZRiRRIh+T9464UxqQ0SL7VZzErSjKg2IKkTEOFPKm3+0e+xm58xWeDQR7PHNIkrqgJRmfwkv4iEkAw=="/>
         </item>
     </channel>
 </rss>
