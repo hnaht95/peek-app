@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.12</title>
-            <pubDate>Thu, 01 Oct 2026 17:41:14 +0700</pubDate>
-            <sparkle:version>68</sparkle:version>
-            <sparkle:shortVersionString>1.10.12</sparkle:shortVersionString>
+            <title>1.10.13</title>
+            <pubDate>Mon, 05 Oct 2026 22:34:08 +0700</pubDate>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>1.10.13</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,22 +34,22 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.12</h2>
+<h2>What's new in 1.10.13</h2>
 <h3>Added</h3>
-<ul><li>Smooth scrolling for mice with a scroll wheel. Lists in the island (Clipboard history, Calendar) and the Settings window now glide instead of jumping notch by notch. In the island lists, each notch moves exactly one row.</li></ul>
+<ul><li>The Music tab now shows and controls whatever your Mac is playing, not just Music and Spotify: YouTube and Facebook videos in your browser, QuickTime, and other players. When several things are playing, the island shows the one that started last.</li><li>While something plays in your browser, click the artwork to jump straight to the tab that's playing. Works with Safari, Chrome, Edge, Brave, Chromium and Vivaldi. The first time, macOS asks for permission to control the browser.</li><li>When a timer finishes, a large alert slides down over the top half of the screen with a soft blur, so you see it even when you're not looking at the notch. Restart the same timer, add 5 minutes, or close it with Esc or a click anywhere.</li></ul>
 <h3>Fixed</h3>
-<ul><li>Water reminders now arrive right on time. Before, they could show up to half a minute late.</li><li>A water reminder that comes due while the island is open now shows just below it instead of being skipped.</li><li>Changing how often to remind now starts counting from that moment, so the first reminder no longer comes too early.</li></ul>
+<ul><li>Scrolling the Calendar tab one notch at a time no longer gets stuck. Before, you had to scroll harder to make it move.</li></ul>
 <h3>Improved</h3>
-<ul><li>In the speaker list, the speaker you pick slides to the middle, and the list opens with the current speaker in the middle. Speakers at either end stay at the edge.</li></ul>
-<h2>Có gì mới ở 1.10.12</h2>
+<ul><li>If macOS won't let Peek control the player on show, its buttons are dimmed instead of doing nothing when clicked.</li><li>Anything an hour or longer shows its time as hours, minutes and seconds.</li></ul>
+<h2>Có gì mới ở 1.10.13</h2>
 <h3>Đã thêm</h3>
-<ul><li>Cuộn mượt cho chuột có bánh xe. Các danh sách trong island (lịch sử Bảng tạm, tab Lịch) và cửa sổ Cài đặt giờ trượt êm thay vì nhảy từng nấc. Ở danh sách trong island, mỗi nấc đi đúng một hàng.</li></ul>
+<ul><li>Tab Nhạc giờ hiện và điều khiển được mọi thứ máy đang phát, không chỉ Music và Spotify: video YouTube, Facebook trong trình duyệt, QuickTime và các trình phát khác. Nhiều thứ cùng phát thì island hiện thứ bắt đầu phát sau cùng.</li><li>Đang phát trong trình duyệt thì bấm vào ảnh bìa là tới thẳng đúng thẻ đang phát. Chạy với Safari, Chrome, Edge, Brave, Chromium và Vivaldi. Lần đầu macOS sẽ hỏi quyền điều khiển trình duyệt.</li><li>Hẹn giờ chạy xong thì một màn báo lớn trượt xuống phủ nửa trên màn hình, nền mờ dần, để không bỏ lỡ cả khi đang không nhìn lên Notch. Hẹn lại đúng số phút cũ, thêm 5 phút, hoặc đóng bằng Esc hay bấm vào chỗ bất kỳ.</li></ul>
 <h3>Đã sửa</h3>
-<ul><li>Nhắc uống nước giờ báo đúng mốc. Trước đây có thể trễ tới nửa phút.</li><li>Tới giờ nhắc mà island đang mở thì thẻ nhắc hiện ngay bên dưới, không còn bị bỏ qua.</li><li>Đổi khoảng nhắc thì đếm lại từ lúc đổi, nên lần nhắc đầu không còn tới sớm.</li></ul>
+<ul><li>Lăn chuột từng nấc ở tab Lịch không còn bị đứng im. Trước đây phải lăn mạnh mới chịu đi.</li></ul>
 <h3>Đã cải thiện</h3>
-<ul><li>Trong danh sách loa, loa vừa chọn trượt ra giữa, và mở danh sách ra là loa đang phát đã nằm giữa. Loa ở hai đầu thì dừng sát mép.</li></ul>
+<ul><li>Khi macOS không cho Peek điều khiển trình phát đang hiện, các nút của nó mờ đi thay vì bấm không ăn.</li><li>Thứ gì dài từ một giờ trở lên thì thời gian hiện đủ giờ, phút, giây.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.12/Peek-1.10.12.zip" length="5226757" type="application/octet-stream" sparkle:edSignature="U4mmzgcHcKuRosxSCBYH0HmvsvHCzynalHW9jr0pHifLDzRYMgFykkFs0577SzNLj37SSBel7OgyKdYd2fdPDQ=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.13/Peek-1.10.13.zip" length="5365749" type="application/octet-stream" sparkle:edSignature="pQczh06eGlbdAvODamjGQl+LCz5WZ0cHUGXIm4KmhbCD6S7ERzMbA91gAMUjVGuUPldNk/gK8Lx5AOmXM+yJBw=="/>
         </item>
     </channel>
 </rss>
