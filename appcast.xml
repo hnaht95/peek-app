@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.14</title>
-            <pubDate>Tue, 06 Oct 2026 00:29:36 +0700</pubDate>
-            <sparkle:version>70</sparkle:version>
-            <sparkle:shortVersionString>1.10.14</sparkle:shortVersionString>
+            <title>1.10.15</title>
+            <pubDate>Tue, 06 Oct 2026 01:10:34 +0700</pubDate>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>1.10.15</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,18 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.14</h2>
+<h2>What's new in 1.10.15</h2>
 <h3>Improved</h3>
-<ul><li>The timer alert now blurs the screen gradually: strongest at the top edge, fading out toward the middle. The background is only lightly dimmed and has a fine grain, and the text stays white.</li><li>The alert's buttons no longer have outlines.</li></ul>
-<h3>Changed</h3>
-<ul><li>The alert's headline always reads "Time's up", whatever language Peek is set to.</li></ul>
-<h2>Có gì mới ở 1.10.14</h2>
+<ul><li>The timer alert is cleaner: the small "TIMER" label above the headline is gone, and the buttons no longer cast a shadow.</li><li>The alert's text sits a little higher on the screen.</li></ul>
+<h2>Có gì mới ở 1.10.15</h2>
 <h3>Đã cải thiện</h3>
-<ul><li>Màn báo hết giờ nay mờ dần: mờ nhất ở mép trên, nhạt dần về giữa màn hình. Nền chỉ tối nhẹ và có thêm lớp hạt mịn, chữ vẫn luôn trắng.</li><li>Các nút trên màn báo bỏ viền.</li></ul>
-<h3>Đã đổi</h3>
-<ul><li>Dòng chữ lớn trên màn báo luôn là "Time's up", dù Peek đang để ngôn ngữ nào.</li></ul>
+<ul><li>Màn báo hết giờ gọn hơn: bỏ dòng chữ nhỏ "HẸN GIỜ" phía trên câu lớn, và các nút không còn bóng đổ.</li><li>Cụm chữ trên màn báo nằm cao hơn một chút.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.14/Peek-1.10.14.zip" length="5375022" type="application/octet-stream" sparkle:edSignature="CnCFiJZpBPHJLav6BYYpGQBxN45800NLuFAgdlpED6mSDdh6efogQ3lKKlwEDHxc6nqnQcA5VLf9bDWOI3edAA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.15/Peek-1.10.15.zip" length="5372464" type="application/octet-stream" sparkle:edSignature="zx5ny7F3zCu1yFybq9w2cI9UsdXm1OisHhwTB03rJlIBb2AtFFhljek8LvsMJ8OXt5+rufxN4YGs/mwYX2d3CA=="/>
         </item>
     </channel>
 </rss>
