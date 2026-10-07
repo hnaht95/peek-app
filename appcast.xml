@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.17</title>
-            <pubDate>Tue, 06 Oct 2026 18:49:29 +0700</pubDate>
-            <sparkle:version>73</sparkle:version>
-            <sparkle:shortVersionString>1.10.17</sparkle:shortVersionString>
+            <title>1.10.18</title>
+            <pubDate>Wed, 07 Oct 2026 20:20:49 +0700</pubDate>
+            <sparkle:version>74</sparkle:version>
+            <sparkle:shortVersionString>1.10.18</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,18 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.17</h2>
-<h3>Changed</h3>
-<ul><li>When something is playing in your browser, the island no longer drops down to announce each new video. Music, Spotify and other players still announce track changes as before.</li></ul>
-<h2>Có gì mới ở 1.10.17</h2>
-<h3>Đã đổi</h3>
-<ul><li>Khi đang phát trong trình duyệt, đổi video thì island không còn tự xổ xuống báo tên nữa. Music, Spotify và các trình phát khác vẫn báo đổi bài như cũ.</li></ul>
+<h2>What's new in 1.10.18</h2>
+<h3>Added</h3>
+<ul><li>Add a note to a timer: click the + next to Start Timer and type what it's for, like "Turn off the stove". When time's up, the alert shows your note. The note stays for the next timer until you clear it.</li></ul>
+<h3>Improved</h3>
+<ul><li>Timer digits roll smoothly as they change, on the island and in the System tab, including while you drag to pick the minutes.</li><li>The timer ruler keeps faint marks past either end, so it no longer looks half empty when you drag all the way.</li></ul>
+<h2>Có gì mới ở 1.10.18</h2>
+<h3>Đã thêm</h3>
+<ul><li>Ghi chú cho hẹn giờ: bấm dấu + cạnh nút Bắt đầu rồi gõ hẹn để làm gì, ví dụ "Tắt bếp". Hết giờ thì màn báo hiện câu ghi chú. Ghi chú được giữ cho lần hẹn sau, tới khi xoá đi.</li></ul>
+<h3>Đã cải thiện</h3>
+<ul><li>Số đếm ngược cuộn mượt khi đổi, cả trên island lẫn trong tab Máy, kể cả lúc kéo thước chọn phút.</li><li>Thước hẹn giờ vẫn có vạch mờ khi kéo hết về một đầu, không còn trống một nửa.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.17/Peek-1.10.17.zip" length="5395628" type="application/octet-stream" sparkle:edSignature="JPVaQAUBLsf4J0eTfAbdnK4l3E9Xvn89jbqTfvu14WAnq9PLzAzUgaZWlDYqUgFpGjqiCrnATr2Mbd8WXnMuAg=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.18/Peek-1.10.18.zip" length="5453024" type="application/octet-stream" sparkle:edSignature="0VnBkac7ikXbLj0gH9EoKzIcPAQkonUhgTWu+G662YZkdf7Rb0v8XkKX+GSYkX9bqzFng+cnQgFIi0yMJ14DAA=="/>
         </item>
     </channel>
 </rss>
