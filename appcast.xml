@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.21</title>
-            <pubDate>Sat, 31 Oct 2026 14:19:51 +0700</pubDate>
-            <sparkle:version>77</sparkle:version>
-            <sparkle:shortVersionString>1.10.21</sparkle:shortVersionString>
+            <title>1.10.22</title>
+            <pubDate>Sat, 31 Oct 2026 21:54:04 +0700</pubDate>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>1.10.22</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,18 +34,14 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.21</h2>
+<h2>What's new in 1.10.22</h2>
 <h3>Fixed</h3>
-<ul><li>The Calendar tab no longer shifts its content the first time the island opens after Peek starts.</li><li>The top end of the scroll bar in Settings is no longer cut off.</li></ul>
-<h3>Improved</h3>
-<ul><li>The scroll bar in Settings stays further from the window's rounded corners and the right edge.</li></ul>
-<h2>Có gì mới ở 1.10.21</h2>
+<ul><li>Peek no longer mistakes an oversized window that reaches below the Dock for a full-screen app, so the island opens without the extra delay.</li></ul>
+<h2>Có gì mới ở 1.10.22</h2>
 <h3>Đã sửa</h3>
-<ul><li>Tab Lịch không còn xê dịch nội dung ở lần mở island đầu tiên sau khi Peek vừa chạy.</li><li>Đầu trên thanh cuộn trong Cài đặt không còn bị cắt ngang.</li></ul>
-<h3>Cải thiện</h3>
-<ul><li>Thanh cuộn trong Cài đặt nằm cách xa góc bo của cửa sổ và mép phải hơn.</li></ul>
+<ul><li>Peek không còn nhầm cửa sổ quá khổ tràn xuống dưới Dock là app toàn màn hình, nên island mở ngay, không còn bị trễ.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.21/Peek-1.10.21.zip" length="5435836" type="application/octet-stream" sparkle:edSignature="VwqRYJA/ua4dVj+gALEh8Xzwi2/NKpLKHd+KKvJXqvPXRXBWXIbQ+PY9PWlyaurVHeS4q1dkorC00jzK3Y0/CA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.22/Peek-1.10.22.zip" length="5435695" type="application/octet-stream" sparkle:edSignature="puRmCj4IVH+akLfGEyJLSi7iYbaazGXVuyLu8uXYG9z/VNkaaSqFBCZkeLPDu1SZosJxsl0sbn1hc8SPPk1IAg=="/>
         </item>
     </channel>
 </rss>
