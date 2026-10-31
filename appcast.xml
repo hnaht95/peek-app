@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.20</title>
-            <pubDate>Sat, 31 Oct 2026 04:33:11 +0700</pubDate>
-            <sparkle:version>76</sparkle:version>
-            <sparkle:shortVersionString>1.10.20</sparkle:shortVersionString>
+            <title>1.10.21</title>
+            <pubDate>Sat, 31 Oct 2026 14:19:51 +0700</pubDate>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>1.10.21</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,18 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.20</h2>
+<h2>What's new in 1.10.21</h2>
 <h3>Fixed</h3>
-<ul><li>The window buttons in Settings are no longer cut off at the bottom.</li><li>The scroll bar in Settings keeps clear of the top and bottom edges.</li></ul>
-<h2>Có gì mới ở 1.10.20</h2>
+<ul><li>The Calendar tab no longer shifts its content the first time the island opens after Peek starts.</li><li>The top end of the scroll bar in Settings is no longer cut off.</li></ul>
+<h3>Improved</h3>
+<ul><li>The scroll bar in Settings stays further from the window's rounded corners and the right edge.</li></ul>
+<h2>Có gì mới ở 1.10.21</h2>
 <h3>Đã sửa</h3>
-<ul><li>Ba nút đóng, thu nhỏ, phóng to trong cửa sổ Cài đặt không còn bị cắt đáy.</li><li>Thanh cuộn trong Cài đặt chừa khoảng ở hai đầu, không còn chạy sát mép trên dưới.</li></ul>
+<ul><li>Tab Lịch không còn xê dịch nội dung ở lần mở island đầu tiên sau khi Peek vừa chạy.</li><li>Đầu trên thanh cuộn trong Cài đặt không còn bị cắt ngang.</li></ul>
+<h3>Cải thiện</h3>
+<ul><li>Thanh cuộn trong Cài đặt nằm cách xa góc bo của cửa sổ và mép phải hơn.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.20/Peek-1.10.20.zip" length="5429352" type="application/octet-stream" sparkle:edSignature="GFmdNtW1jKp2bAaJunXEtEJlZoMwAzkYFrb9ClJWjkaaBM1LPqxnPHP1aqmuvRNe8Yyo3jOOiZ2e5yZBmMsACg=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.21/Peek-1.10.21.zip" length="5435836" type="application/octet-stream" sparkle:edSignature="VwqRYJA/ua4dVj+gALEh8Xzwi2/NKpLKHd+KKvJXqvPXRXBWXIbQ+PY9PWlyaurVHeS4q1dkorC00jzK3Y0/CA=="/>
         </item>
     </channel>
 </rss>
