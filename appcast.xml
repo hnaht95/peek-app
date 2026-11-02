@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.22</title>
-            <pubDate>Sat, 31 Oct 2026 21:54:04 +0700</pubDate>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>1.10.22</sparkle:shortVersionString>
+            <title>1.10.23</title>
+            <pubDate>Mon, 02 Nov 2026 12:09:19 +0700</pubDate>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>1.10.23</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,18 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.22</h2>
+<h2>What's new in 1.10.23</h2>
 <h3>Fixed</h3>
-<ul><li>Peek no longer mistakes an oversized window that reaches below the Dock for a full-screen app, so the island opens without the extra delay.</li></ul>
-<h2>Có gì mới ở 1.10.22</h2>
+<ul><li>The album cover and waveform no longer disappear, leaving only the song title, when you close the island after switching to the Calendar tab while music is playing.</li><li>On screens with a notch, the island no longer bounces when it collapses, so it never dips inside the real notch.</li><li>The island closes cleanly, with the moon and album cover no longer appearing on top of the tab row.</li><li>Do Not Disturb on macOS 26 and later now reads its real state, instead of appearing stuck on because of an old system setting.</li><li>When you move the pointer away with Do Not Disturb on, the moon slides with the island's edge instead of jumping inward.</li></ul>
+<h3>Improved</h3>
+<ul><li>The moon and album cover now fade into each other more slowly and softly.</li><li>The moon is smaller and sits in the same square as the album cover, with matching spacing.</li></ul>
+<h2>Có gì mới ở 1.10.23</h2>
 <h3>Đã sửa</h3>
-<ul><li>Peek không còn nhầm cửa sổ quá khổ tràn xuống dưới Dock là app toàn màn hình, nên island mở ngay, không còn bị trễ.</li></ul>
+<ul><li>Ảnh bìa và sóng nhạc không còn biến mất, chỉ còn tên bài, khi đóng island sau lúc chuyển sang tab Lịch trong khi đang phát nhạc.</li><li>Trên màn có tai thỏ, island không còn nảy khi thu gọn, nên không còn lẹm vào trong tai thỏ thật.</li><li>Island đóng gọn gàng, mặt trăng và ảnh bìa không còn hiện đè lên hàng tab.</li><li>Không làm phiền trên macOS 26 trở lên giờ đọc đúng trạng thái thật, không còn trông như bị bật mãi vì một thiết lập cũ của hệ thống.</li><li>Khi rời chuột lúc đang bật Không làm phiền, mặt trăng trượt theo mép island thay vì nhảy vào trong.</li></ul>
+<h3>Cải thiện</h3>
+<ul><li>Mặt trăng và ảnh bìa mờ sang nhau chậm và dịu hơn.</li><li>Mặt trăng nhỏ lại và nằm đúng ô vuông của ảnh bìa, khoảng cách hai bên như nhau.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.22/Peek-1.10.22.zip" length="5435695" type="application/octet-stream" sparkle:edSignature="puRmCj4IVH+akLfGEyJLSi7iYbaazGXVuyLu8uXYG9z/VNkaaSqFBCZkeLPDu1SZosJxsl0sbn1hc8SPPk1IAg=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.23/Peek-1.10.23.zip" length="5451367" type="application/octet-stream" sparkle:edSignature="ymrRs+elZ0w5Z39O9AkHFGOecrTUOtn1sdrPeIvRPM1sEFYhu0rFNB/QGV+gkyPG0m2O6rX4CXj7wNUPGwKmDw=="/>
         </item>
     </channel>
 </rss>
