@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.24</title>
-            <pubDate>Mon, 02 Nov 2026 22:42:18 +0700</pubDate>
-            <sparkle:version>80</sparkle:version>
-            <sparkle:shortVersionString>1.10.24</sparkle:shortVersionString>
+            <title>1.10.25</title>
+            <pubDate>Fri, 20 Nov 2026 18:24:51 +0700</pubDate>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>1.10.25</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,14 +34,22 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.24</h2>
+<h2>What's new in 1.10.25</h2>
+<h3>Added</h3>
+<ul><li>Vietnam Culture Day (November 24), a paid day off from 2026, now appears among the public holidays.</li></ul>
 <h3>Fixed</h3>
-<ul><li>The track announcement card now collapses smoothly when a new song starts: the card fades out while the album cover and waveform slide along with the island's edge, instead of jumping.</li><li>Reminders below the island, like the water reminder, now slide along with the island when it expands or collapses, instead of jumping to their final position.</li></ul>
-<h2>Có gì mới ở 1.10.24</h2>
+<ul><li>Saving a note right after typing Vietnamese no longer drops the last word that was still being composed.</li><li>Hovering the album cover while a long title is scrolling now works everywhere on the cover, instead of only in some spots.</li><li>The waveform follows the real audio as soon as you hover the island or open the panel, instead of showing a placeholder animation for a moment.</li></ul>
+<h3>Improved</h3>
+<ul><li>Calendar cards are now filled with soft colors instead of a thin vertical bar: purple for notes, green for birthdays, terracotta for holidays. Day numbers in the calendar use matching colors.</li><li>The waveform no longer sits at the top at full volume. Loud music is softly limited so the bars keep moving.</li></ul>
+<h2>Có gì mới ở 1.10.25</h2>
+<h3>Thêm mới</h3>
+<ul><li>Ngày Văn hoá Việt Nam (24/11), ngày nghỉ hưởng lương từ năm 2026, đã có trong danh sách ngày lễ.</li></ul>
 <h3>Đã sửa</h3>
-<ul><li>Thẻ báo đổi bài thu gọn mượt khi sang bài mới: thẻ mờ dần, ảnh bìa và sóng nhạc trượt theo mép island thay vì nhảy.</li><li>Các thẻ nhắc dưới island, như báo uống nước, giờ trượt cùng island khi island mở ra hay thu lại, thay vì nhảy tới chỗ cuối.</li></ul>
+<ul><li>Lưu ghi chú ngay sau khi gõ tiếng Việt không còn mất chữ cuối đang gõ dở.</li><li>Rê chuột vào ảnh bìa lúc tên bài đang chạy chữ giờ nhận ở mọi chỗ trên ảnh, không còn chỗ nhận chỗ không.</li><li>Sóng nhạc nhảy theo âm thanh thật ngay khi rê chuột vào island hay mở bảng, không còn chạy dạng tự tạo một lúc.</li></ul>
+<h3>Cải thiện</h3>
+<ul><li>Các thẻ trong bảng Lịch giờ tô nền màu dịu thay cho thanh dọc mảnh: tím cho ghi chú, xanh lá cho sinh nhật, cam đất cho ngày lễ. Số ngày trên lịch cũng mang màu tương ứng.</li><li>Sóng nhạc không còn dính trần ở âm lượng tối đa. Nhạc to được nén mềm để các thanh vẫn nhấp nhô.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.24/Peek-1.10.24.zip" length="5453949" type="application/octet-stream" sparkle:edSignature="MCUVwbGqDiyrtyhfB+5E/cQr0+Qpr8kv3iIl1U/j7KLDO196V7rxy5Btig9l5FMu0sNWPyFZ4PLvdtWmVkTmAA=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.25/Peek-1.10.25.zip" length="5458669" type="application/octet-stream" sparkle:edSignature="BkjLwJNodiJD/lyqlcTQZYdh7ZdpStdawgW6y1FFlOGrGhzSDdHTDQqn67sn9diDEk5tOjdmorF2O98Ig6SnDQ=="/>
         </item>
     </channel>
 </rss>
