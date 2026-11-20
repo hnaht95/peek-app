@@ -3,10 +3,10 @@
     <channel>
         <title>Peek</title>
         <item>
-            <title>1.10.25</title>
-            <pubDate>Fri, 20 Nov 2026 18:24:51 +0700</pubDate>
-            <sparkle:version>81</sparkle:version>
-            <sparkle:shortVersionString>1.10.25</sparkle:shortVersionString>
+            <title>1.10.26</title>
+            <pubDate>Fri, 20 Nov 2026 18:57:03 +0700</pubDate>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>1.10.26</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<style>
 :root { color-scheme: light dark; }
@@ -34,22 +34,22 @@ code {
   background: rgba(128, 128, 128, 0.18);
 }
 </style>
-<h2>What's new in 1.10.25</h2>
+<h2>What's new in 1.10.26</h2>
 <h3>Added</h3>
-<ul><li>Vietnam Culture Day (November 24), a paid day off from 2026, now appears among the public holidays.</li></ul>
+<ul><li>Swipe left or right with two fingers on the trackpad to move to the next or previous tab. With a mouse, hold Shift and scroll.</li><li>Double-click a note to start editing it right away.</li></ul>
 <h3>Fixed</h3>
-<ul><li>Saving a note right after typing Vietnamese no longer drops the last word that was still being composed.</li><li>Hovering the album cover while a long title is scrolling now works everywhere on the cover, instead of only in some spots.</li><li>The waveform follows the real audio as soon as you hover the island or open the panel, instead of showing a placeholder animation for a moment.</li></ul>
+<ul><li>Hovering a holiday card no longer fades the end of its title, since there is no remove button there.</li><li>Long water reminder messages now fade out before the pen button instead of being cut off.</li></ul>
 <h3>Improved</h3>
-<ul><li>Calendar cards are now filled with soft colors instead of a thin vertical bar: purple for notes, green for birthdays, terracotta for holidays. Day numbers in the calendar use matching colors.</li><li>The waveform no longer sits at the top at full volume. Loud music is softly limited so the bars keep moving.</li></ul>
-<h2>Có gì mới ở 1.10.25</h2>
+<ul><li>The volume and output device row stays open between visits if you left it open.</li><li>Day numbers in the calendar now use the same regular typeface as the rest of the panel.</li><li>Days outside the current month are dimmer, so the month you are looking at stands out.</li></ul>
+<h2>Có gì mới ở 1.10.26</h2>
 <h3>Đã thêm</h3>
-<ul><li>Ngày Văn hoá Việt Nam (24/11), ngày nghỉ hưởng lương từ năm 2026, đã có trong danh sách ngày lễ.</li></ul>
+<ul><li>Vuốt ngang hai ngón trên trackpad để sang tab bên cạnh. Dùng chuột thì giữ Shift rồi lăn bánh xe.</li><li>Nhấn đúp vào ghi chú để sửa ngay.</li></ul>
 <h3>Đã sửa</h3>
-<ul><li>Lưu ghi chú ngay sau khi gõ tiếng Việt không còn mất chữ cuối đang gõ dở.</li><li>Rê chuột vào ảnh bìa lúc tên bài đang chạy chữ giờ nhận ở mọi chỗ trên ảnh, không còn chỗ nhận chỗ không.</li><li>Sóng nhạc nhảy theo âm thanh thật ngay khi rê chuột vào island hay mở bảng, không còn chạy dạng tự tạo một lúc.</li></ul>
+<ul><li>Rê chuột vào thẻ ngày lễ không còn làm mờ đuôi tên, vì ở đó không có nút xoá.</li><li>Câu nhắc uống nước dài giờ mờ dần trước nút bút thay vì bị cắt cụt.</li></ul>
 <h3>Cải thiện</h3>
-<ul><li>Các thẻ trong bảng Lịch giờ tô nền màu dịu thay cho thanh dọc mảnh: tím cho ghi chú, xanh lá cho sinh nhật, cam đất cho ngày lễ. Số ngày trên lịch cũng mang màu tương ứng.</li><li>Sóng nhạc không còn dính trần ở âm lượng tối đa. Nhạc to được nén mềm để các thanh vẫn nhấp nhô.</li></ul>
+<ul><li>Hàng âm lượng và thiết bị phát giữ nguyên trạng thái mở cho lần sau nếu bạn để nó mở.</li><li>Số ngày trên lịch dùng phông thường, cùng phông với phần còn lại của bảng.</li><li>Các ngày không thuộc tháng đang xem mờ hơn, tháng đang xem nổi rõ hơn.</li></ul>
 ]]></description>
-            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.25/Peek-1.10.25.zip" length="5458669" type="application/octet-stream" sparkle:edSignature="BkjLwJNodiJD/lyqlcTQZYdh7ZdpStdawgW6y1FFlOGrGhzSDdHTDQqn67sn9diDEk5tOjdmorF2O98Ig6SnDQ=="/>
+            <enclosure url="https://github.com/hnaht95/peek-app/releases/download/v1.10.26/Peek-1.10.26.zip" length="5475255" type="application/octet-stream" sparkle:edSignature="QSPQVoizWQY61escXfgVWBxLMnWTRN6BaurpRAS4tnB6UwsW4ycC1NshWFwYF/FGCQ0bR5rIYMffXTbl7JZpAg=="/>
         </item>
     </channel>
 </rss>
